@@ -1,0 +1,180 @@
+Software Testing
+
+Week 1: INTRODUCTION AND TESTING BASICS
+
+6 JAN. Introduction - What is Software Testing?
+  a. What it is not – catching every single bug
+  b. Verification vs Validation
+  c. QA vs QC
+  d. What is a bug, really?
+
+8 JAN. Testing Basics
+  a. Equivalence classes
+  b. Base cases, edge cases,  success cases, failure cases
+  c. White / Black / Grey Box testing
+  d. Static vs Dynamic Testing
+
+Week 3: REQUIREMENTS AND TEST PLANS
+13 JAN. Requirements Development and Testing
+  a. Testability
+  b. Functional Requirements
+  c. Non-Functional (-ility) Requirements
+    i. Scalability, reliability, usability, etc.
+    ii. Special focus on whether or not it’s testable
+  d. Traceability Matrices
+DUE: GROUP ASSIGNMENTS (0% of grade)
+
+15 JAN. Test Plans
+  a. Developing a test plan
+  b. Executing a test plan -> test runs
+  c. Test plan/run tracking
+  d. Tying defects to test runs
+
+Week 3: DEFECTS - FINDING AND REPORTING
+20 JAN. Martin Luther King Day - NO CLASS
+
+22 JAN. Defects
+  a. Reporting a defect
+    i. Expected behavior vs observed behavior
+    ii. Descriptiveness
+    iii. Reproducibility, etc.
+  b. Tracking, Triaging and Prioritizing Defects
+
+Week 4: Automated Testing
+27 JAN. Automated and Manual Testing
+  a. Benefits of manual vs automated testing
+  b. Overview of tools used for automated testing (xUnit, rspec, Cucumber, STAF/STAX, etc.)
+  c. Concepts of writing automated tests
+    i. Minimize external dependencies
+    ii. Minimize randomness
+    iii. Expected vs observed behavior
+  DUE: DELIVERABLE 1 (10% of grade)
+
+29 JAN. Writing Unit Tests
+  a. Understanding and limiting scope
+  b. Stubbing / Mocking
+  c. Ensuring that tests are testing what you think they are testing
+  d. Examples
+  e. When not to use unit tests (integration, dependencies, libraries)
+  f. Concept of code coverage
+  g. A brief introduction to TDD
+
+Week 5: INFORMAL TESTING and TDD
+3 FEB. Special Topics: Exploratory (Ad hoc), Stochastic and Smoke Testing
+  a. Benefits
+  b. Sanity, media checks
+  c. How to do an exploratory test effectively
+  d. Stochastic (monkey) tests ("Chaos monkey", fuzz testing)
+
+5 FEB. Test-driven Development
+  a. Concepts
+   i. Red-Green-Refactor
+   ii. Minimal code to pass tests
+   iii. Increase tests to specify behavior
+  b. Benefits and Drawbacks
+  c. Examples
+
+Week 6: Behavior-Driven Development
+10 FEB. Behavior-Driven Development
+  a. Understanding user's needs
+  b. Big Picture
+  c. Introduction to Cucumber
+
+12 FEB. Writing Acceptance Tests for Behavior-Driven Development
+  a. Cucumber examples
+  b. Walk throughs of different kinds of BDD tests
+    i. User interface
+    ii. Logging
+    iii. Database insertions/deletions
+    iv. Web
+DUE: DELIVERABLE 2 (10% of grade)
+
+Week 8: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
+17 FEB. Special Topics: Interacting with Stakeholders
+  a. Who should be involved in stakeholder meetings?  Why?
+  b. Reporting to management/other engineers/users/etc.
+  c. Clarification of user requirements
+  d. Pushing back against "it works for me"
+
+19 FEB. Integration Testing
+  a. Problems when systems interact
+  b. Problems with live data feeds
+  c. How to design
+  d. What to do when external systems contain errors?
+
+Week 9: INTEGRATION AND ACCEPTANCE TESTING
+24 FEB. Acceptance Testing
+  a. When is software "ready"? - Understanding release requirements
+  b. What to test for
+  c. What to report
+  d. "Known bugs"
+  e. Providing an estimate of quality
+  f. Regression Tests
+  g. Remember sanity tests (media checks, installation checks, etc.)
+
+26 FEB. MID-TERM (20% of grade) 
+
+Week 10: ADVANCED UNIT TESTING AND CODE ANALYSIS
+3 MAR. Advanced Unit Testing
+  a. More advanced examples
+  b. Understanding code coverage
+
+5 MAR. Static Analysis Tools
+
+DUE: DELIVERABLE 3 (10% of grade)
+
+Week 11 
+10 MAR - SPRING BREAK - NO CLASS
+
+12 MAR - SPRING BREAK - NO CLASS
+
+Week 12: WEB TESTING AND PROPERTY-BASED TESTING
+17 MAR. Special Topics: Testing Web Apps with Selenium
+  a. How to use Selenium to script/test web applications
+  b. Examples
+
+19 MAR. Special Topics: Property-Based Testing
+
+Week 13: COMBINATORIAL TESTING AND PERFORMANCE TESTING
+24 MAR. Special Topics: Combinatorial Testing
+  a. Why it works, what it catches
+  b. A little of the math behind it
+  c. Tools for use (e.g. NIST ACTS)
+
+26 MAR. Performance Testing
+  a. Load/stress testing
+  b. Timing
+  c. Resource usage
+  d. Key Performance Indicators (KPI)
+  e. Tools - JProfiler, perfmon, etc.
+
+Week 13: PERFORMANCE TESTING, CONTINUED
+
+31 MAR. Performance Testing, cont'd
+  a. Scaling
+  b. Modeling
+  c. Writing and testing performance requirements
+  d. Special difficulties (e.g., testing performance before functionality complete)
+
+2 APR. Special Topics: Testing Distributed Systems
+
+Week 14: USABILITY TESTING
+7 APR. Special Topics: Usability Testing
+  a. How to define "usability"?
+  a. Paper prototypes
+  b. Human-centered design
+
+9 APR. Special Topics: Formal Analysis
+DUE: FINAL DELIVERABLE (30% of grade)
+
+Week 15: ON BEING A TESTER
+14 APR. Special Topics: Testing as a Career
+  a. Quality Analyst
+  b. Software Engineer in Test
+  c. What to expect
+  d. How to be a good tester
+  e. Soft skills
+  f. How does software testing compare to traditional software engineering?
+  g. War stories
+
+16 APR. CUMULATIVE FINAL (20% of grade)
