@@ -16,7 +16,6 @@ I expect at least (5 * (number of people in group)) requirements.  In other word
 The requirements should completely cover the subset(s) of functionality chosen to test.  This may or may not be the entire application.  If you are going to do a subset of the functionality, please note what the subset is as part of your introduction.
 
 There should be at least as many test cases as requirements, although I would normally expect several test cases per requirement.  As a general rule, I'd estimate 2x to 3x the number of requirements.
-
 Each requirement should have AT LEAST one test case associated with it, and each test should have EXACTLY ONE requirement associated with it.  This can easily be checked via a traceability matrix (which you should also deliver).
 
 There should be at least three non-functional requirements (quality attributes).  Remember our discussion on proper testing of non-functional requirements!
@@ -37,7 +36,7 @@ There should be a short (approximately one paragraph) introduction stating what 
 
 There should be a description of why you chose the non-functional requirements that you did.  This should not be longer than a paragraph per non-functional requirement.
 
-Optionally, you may note that any concerns or difficulties you may have had or anticipate with the testing process.  For example, 
+Optionally, you may note that any concerns or difficulties you may have had or anticipate with the testing process.
 
 This should be followed ON A NEW PAGE by the listing of requirements.  You may name or number them any way you wish, but be consistent.
 
