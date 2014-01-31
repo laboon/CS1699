@@ -30,14 +30,14 @@ public class LinkedListTest {
 	public void testEquals0Elems() {
 		LinkedList<Integer> ll01 = new LinkedList<Integer>();
 		LinkedList<Integer> ll02 = new LinkedList<Integer>();
-		assertTrue(ll01.equals(ll02));
+		assertEquals(ll01, ll02);
 	}
 	
 	//	2. No instantiated LL should equal null
 	@Test
 	public void testNotEqualsNull() {
 		LinkedList<Integer> ll01 = new LinkedList<Integer>();
-		assertFalse(ll01.equals(lln));
+		assertFalse(ll01.equals(null));
 	}
 	
 	//  3. No LL should equal a non-LinkedList, e.g. Object
@@ -55,7 +55,7 @@ public class LinkedListTest {
 		LinkedList<Integer> ll12 = new LinkedList<Integer>();
 		ll11.addToFront(new Node<Integer>(new Integer(1)));
 		ll12.addToFront(new Node<Integer>(new Integer(1)));
-		assertTrue(ll11.equals(ll12));
+		assertEquals(ll11, ll12);
 	}
 	
 	//  5. Two LL with different Node values with a single node should NOT be equal	
@@ -81,14 +81,14 @@ public class LinkedListTest {
 		
 		assertFalse(ll_3elems.equals(ll11));
 	}
-	
+
 	//  7. An LL which is just a reference to another instance of itself should equal itself
 	@Test
 	public void testEqualsRef() {
 		LinkedList<Integer> ll11 = new LinkedList<Integer>();
 		ll11.addToFront(new Node<Integer>(new Integer(1)));
 		LinkedList<Integer> ll11_new = ll11;
-		fail();
+		assertSame(ll11, ll11_new);
 	}
 	
 	//  8. LLs with different data should not equal each other	
@@ -103,8 +103,7 @@ public class LinkedListTest {
 		ll_321.addToFront(new Node<Integer>(new Integer(1)));
 		ll_321.addToFront(new Node<Integer>(new Integer(2)));
 		ll_321.addToFront(new Node<Integer>(new Integer(3)));
-		fail();
-		// ???
+		assertFalse(ll_321.equals(ll_3elems));
 	}
 	
 	//  9. LLs with the same data should equal each other
@@ -120,7 +119,9 @@ public class LinkedListTest {
 		ll_321_2.addToFront(new Node<Integer>(new Integer(1)));
 		ll_321_2.addToFront(new Node<Integer>(new Integer(2)));
 		ll_321_2.addToFront(new Node<Integer>(new Integer(3)));
-		fail();
+		
+		assertEquals(ll_321, ll_321_2);
+		
 		// ???
 	}
 
