@@ -87,7 +87,6 @@ Week 6: Behavior-Driven Development
     ii. Logging
     iii. Database insertions/deletions
     iv. Web
-DUE: DELIVERABLE 2 (10% of grade)
 
 Week 8: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
 17 FEB. Special Topics: Interacting with Stakeholders
@@ -95,12 +94,14 @@ Week 8: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
   b. Reporting to management/other engineers/users/etc.
   c. Clarification of user requirements
   d. Pushing back against "it works for me"
+DUE: DELIVERABLE 2 (10% of grade)
 
 19 FEB. Integration Testing
   a. Problems when systems interact
   b. Problems with live data feeds
   c. How to design
   d. What to do when external systems contain errors?
+ASSIGNED: DELIVERABLE 3
 
 Week 9: INTEGRATION AND ACCEPTANCE TESTING
 24 FEB. Acceptance Testing

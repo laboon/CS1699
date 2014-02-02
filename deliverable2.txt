@@ -1,0 +1,47 @@
+CS1699 - Software Testing
+Spring Semester 2014
+
+Deliverable 1
+Assigned 2 FEBRUARY 2014
+Due 17 FEBRUARY 2014
+
+For this assignment, your group will write unit tests for an object or other unit of code.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
+
+Additionally, you will email me your code and unit tests, OR a link to your tests and code on Github (+ 5% extra credit).
+
+Format:
+Every group should have a title page with:
+The name of the project under test
+The names of the people in the group
+The title CS1699 - DELIVERABLE 2: Unit Testing and Code Coverage
+
+The summary should explain why you chose this particular object to test and what it does. This should be relatively short, a few paragraphs at the most.
+
+Secondly, add a description of issues you faced when writing these tests and problems you would expect going forward based on your experiences.  If any tests you wrote fail, they should be included here.
+
+At the end of this section, note where your code is located.
+
+After this, ON A SEPARATE PAGE, include a screen shot of the executed unit tests.  Note that not all tests have to pass!  However, if a test doesn't pass, it should be included in the concerns section above.
+
+ON A SEPARATE PAGE, include either a screenshot or output from a code coverage tool of your tests and the object they cover.
+
+There is no need to print out the code.  It should be emailed to me or put on a publicly-available site such as Github BY THE BEGINNING OF CLASS.
+
+At least three (3) unit tests should use mocks/doubles.
+
+At least three (3) unit tests should use stubbing of methods or functions.
+
+I expect 10 * (number of students in group) unit tests, using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc.
+
+Grading:
+Summary - 10%
+Testing concerns - 10% 
+Screenshot of executed unit tests - 10%
+Unit test coverage report - 20%
+Unit test code - 50%
+
+I will give a +5% bonus if you put your test code on Github or another web-accessible version control site.  Note that this does not mean just putting it up on an FTP site or similar; it must be an actual version control system.
+
+Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
+
+ 
