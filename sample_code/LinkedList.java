@@ -33,11 +33,9 @@ public class LinkedList<T> {
 	}
 	
 	public void addToFront(Node<T> toAdd) {
-		
 		if (_head == null) {
 			_head = toAdd;
 		} else {
-		
 			Node<T> oldHead = _head;
 			_head = toAdd;
 			_head.setNext(oldHead);
@@ -261,6 +259,7 @@ public class LinkedList<T> {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		/*
 		LinkedList<Integer> ll = new LinkedList<Integer>();
 		Node<Integer> node0 = new Node<Integer>(0);
 		Node<Integer> node1 = new Node<Integer>(1);
@@ -356,7 +355,7 @@ public class LinkedList<T> {
 				System.out.println(j + "[st/nd/th] to last = " + n.intValue());
 			}
 		}
-		
+		*/
 	}
 
 }
