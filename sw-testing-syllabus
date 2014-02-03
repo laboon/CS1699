@@ -51,20 +51,19 @@ Week 4: Automated Testing
   DUE: DELIVERABLE 1 (10% of grade)
 
 29 JAN. Writing Unit Tests
-  a. Understanding and limiting scope
-  b. Stubbing / Mocking
+  a. Unit test framework overview
+  b. Execution Steps 
+  c. Assertions
+  d. Examples
   c. Ensuring that tests are testing what you think they are testing
   d. Examples
-  e. When not to use unit tests (integration, dependencies, libraries)
-  f. Concept of code coverage
-  g. A brief introduction to TDD
 
 Week 5: INFORMAL TESTING and TDD
-3 FEB. Special Topics: Exploratory (Ad hoc), Stochastic and Smoke Testing
-  a. Benefits
-  b. Sanity, media checks
-  c. How to do an exploratory test effectively
-  d. Stochastic (monkey) tests ("Chaos monkey", fuzz testing)
+3 FEB. Advanced Unit Testing
+  a. Stubbing and verification
+  b. Mocking
+  c. Unit test structure
+  d. Code coverage
 
 5 FEB. Test-driven Development
   a. Concepts
@@ -116,9 +115,11 @@ Week 9: INTEGRATION AND ACCEPTANCE TESTING
 26 FEB. MID-TERM (20% of grade) 
 
 Week 10: ADVANCED UNIT TESTING AND CODE ANALYSIS
-3 MAR. Advanced Unit Testing
-  a. More advanced examples
-  b. Understanding code coverage
+3 MAR. Special Topics: Exploratory (Ad hoc), Stochastic and Smoke Testing
+  a. Benefits
+  b. Sanity, media checks
+  c. How to do an exploratory test effectively
+  d. Stochastic (monkey) tests ("Chaos monkey", fuzz testing)
 
 5 MAR. Static Analysis Tools
 

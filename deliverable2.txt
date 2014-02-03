@@ -31,7 +31,7 @@ At least three (3) unit tests should use mocks/doubles.
 
 At least three (3) unit tests should use stubbing of methods or functions.
 
-I expect 10 * (number of students in group) unit tests, using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc.
+I expect 15 * (number of students in group) unit tests, using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc.
 
 Grading:
 Summary - 10%
