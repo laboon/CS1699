@@ -73,33 +73,33 @@ Week 5: INFORMAL TESTING and TDD
   b. Benefits and Drawbacks
   c. Examples
 
-Week 6: Behavior-Driven Development
-10 FEB. Behavior-Driven Development
+Week 6: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
+10 FEB. Special Topics: Interacting with Stakeholders
+  a. Who should be involved in stakeholder meetings?  Why?
+  b. Reporting to management/other engineers/users/etc.
+  c. Clarification of user requirements
+  d. Pushing back against "it works for me"
+
+12 FEB. Integration Testing
+  a. Problems when systems interact
+  b. Problems with live data feeds
+  c. How to design
+  d. What to do when external systems contain errors?
+
+Week 7: Behavior-Driven Development
+17 FEB. Behavior-Driven Development
   a. Understanding user's needs
   b. Big Picture
   c. Introduction to Cucumber
+DUE: DELIVERABLE 2 (10% of grade)
 
-12 FEB. Writing Acceptance Tests for Behavior-Driven Development
+19 FEB. Writing Acceptance Tests for Behavior-Driven Development
   a. Cucumber examples
   b. Walk throughs of different kinds of BDD tests
     i. User interface
     ii. Logging
     iii. Database insertions/deletions
     iv. Web
-
-Week 8: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
-17 FEB. Special Topics: Interacting with Stakeholders
-  a. Who should be involved in stakeholder meetings?  Why?
-  b. Reporting to management/other engineers/users/etc.
-  c. Clarification of user requirements
-  d. Pushing back against "it works for me"
-DUE: DELIVERABLE 2 (10% of grade)
-
-19 FEB. Integration Testing
-  a. Problems when systems interact
-  b. Problems with live data feeds
-  c. How to design
-  d. What to do when external systems contain errors?
 ASSIGNED: DELIVERABLE 3
 
 Week 9: INTEGRATION AND ACCEPTANCE TESTING

@@ -33,6 +33,25 @@ At least three (3) unit tests should use stubbing of methods or functions.
 
 I expect 15 * (number of students in group) unit tests, using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc.
 
+Before each test, add some comments explaining what it is testing.  For example...
+
+//  Two LLs with different sizes should never be equal.
+//  Create two linked lists, both of which have the same value in the initial node,
+// but one has several more nodes. 
+// They should not be equal to each other.
+	@Test
+	public void testNotEqualsDiffSizes() {
+		LinkedList<Integer> ll11 = new LinkedList<Integer>();
+		LinkedList<Integer> ll_3elems = new LinkedList<Integer>();
+
+		ll11.addToFront(new Node<Integer>(new Integer(1)));
+		ll_3elems.addToFront(new Node<Integer>(new Integer(3)));
+		ll_3elems.addToFront(new Node<Integer>(new Integer(2)));
+		ll_3elems.addToFront(new Node<Integer>(new Integer(1)));
+
+		assertFalse(ll_3elems.equals(ll11));
+	}
+
 Grading:
 Summary - 10%
 Testing concerns - 10% 
