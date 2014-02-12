@@ -14,7 +14,7 @@ Week 1: INTRODUCTION AND TESTING BASICS
   c. White / Black / Grey Box testing
   d. Static vs Dynamic Testing
 
-Week 3: REQUIREMENTS AND TEST PLANS
+Week 2: REQUIREMENTS AND TEST PLANS
 13 JAN. Requirements Development and Testing
   a. Testability
   b. Functional Requirements
@@ -80,11 +80,9 @@ Week 6: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
   c. Clarification of user requirements
   d. Pushing back against "it works for me"
 
-12 FEB. Integration Testing
-  a. Problems when systems interact
-  b. Problems with live data feeds
-  c. How to design
-  d. What to do when external systems contain errors?
+12 FEB. Interacting with Stakeholders, Part II
+  a. Integrating Theory and Practice
+  b. Role-Playing - Managers, Developers, Testers
 
 Week 7: Behavior-Driven Development
 17 FEB. Behavior-Driven Development
