@@ -5,7 +5,6 @@ Course Information
 Taught by: Bill Laboon
 
 Class Time: MW 6:00 - 7:15.
-
 Room: SENSQ 5313
 
 Office Hours: SENSQ 6148, MW 5:00-6:00 or by appointment.  I am usually available
@@ -89,7 +88,7 @@ amount of work per student should be the same despite the number of
 students in the group.  Students will perform the role of QA team on a
 project which can be selected either by themselves, or assigned by the
 instructor.  The group will have several deliverables over the course
-of the semester:
+of the semester.
 
 The group should check with the instructor as to the feasibility of
 the particular project they are working on.  The instructor reserves
@@ -124,7 +123,7 @@ Programming Language Selection
 
 The instructor is open to groups using any programming language or
 testing framework.  However, it is recommended that it be done in
-Java, Ruby, Haskell, or C++.  If your group decides to use another
+Java, Ruby, or Haskell.  If your group decides to use another
 language, the instructor may not be able to help with problems
 specific to that language.
 
