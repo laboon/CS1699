@@ -1,4 +1,4 @@
-;; 1...100
+;; 1...1000
 ;; /3, fizz
 ;; /5, buzz
 ;; /15, fizzbuzz
@@ -11,7 +11,7 @@
       (with-current-buffer (get-buffer-create "*fizzbuzz-output*")
           (erase-buffer)
               (let ((i 1))
-                    (while (< i 101)
+                    (while (< i 1001)
                             (insert (fizzbuzz-output i) "\n")
                                     (incf i)))))
 
