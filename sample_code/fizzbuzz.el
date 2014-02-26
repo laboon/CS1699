@@ -1,3 +1,4 @@
+;; I'm sorry I made fun of vi :(
 ;; 1...1000
 ;; /3, fizz
 ;; /5, buzz
