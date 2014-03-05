@@ -52,7 +52,7 @@ Week 4: Automated Testing
 
 29 JAN. Writing Unit Tests
   a. Unit test framework overview
-  b. Execution Steps 
+  b. Execution Steps
   c. Assertions
   d. Examples
   c. Ensuring that tests are testing what you think they are testing
@@ -104,60 +104,52 @@ Week 9: INTEGRATION AND ACCEPTANCE TESTING
 24 FEB. An Overview of Version Control with Git
   + Preparation for midterm
 
-26 FEB. MID-TERM (20% of grade) 
+26 FEB. MID-TERM (20% of grade)
 
 Week 10: ADVANCED UNIT TESTING AND CODE ANALYSIS
-3 MAR. Special Topics: Exploratory (Ad hoc), Stochastic and Smoke Testing
-  a. Benefits
-  b. Sanity, media checks
-  c. How to do an exploratory test effectively
-  d. Stochastic (monkey) tests ("Chaos monkey", fuzz testing)
+3 MAR. Web Testing with Selenium
 
-5 MAR. Static Analysis Tools
+5 MAR. Automated Web Testing with Selenium and Cucumber
 
-Week 11 
+Week 11
 10 MAR - SPRING BREAK - NO CLASS
 
 12 MAR - SPRING BREAK - NO CLASS
 
 Week 12: WEB TESTING AND PROPERTY-BASED TESTING
-17 MAR. Special Topics: Testing Web Apps with Selenium
-  a. How to use Selenium to script/test web applications
-  b. Examples
+17 MAR. Special Topics: Combinatorial Testing
 DUE: DELIVERABLE 3 (10% of grade)
 
 19 MAR. Special Topics: Property-Based Testing
+ASSIGNED: FINAL DELIVERABLE
 
 Week 13: COMBINATORIAL TESTING AND PERFORMANCE TESTING
-24 MAR. Special Topics: Combinatorial Testing
-  a. Why it works, what it catches
-  b. A little of the math behind it
-  c. Tools for use (e.g. NIST ACTS)
-
-26 MAR. Performance Testing
+24 MAR. Performance Testing
   a. Load/stress testing
   b. Timing
   c. Resource usage
   d. Key Performance Indicators (KPI)
   e. Tools - JProfiler, perfmon, etc.
 
-Week 13: PERFORMANCE TESTING, CONTINUED
-
-31 MAR. Performance Testing, cont'd
+26 MAR. Performance Testing, cont'd
   a. Scaling
   b. Modeling
   c. Writing and testing performance requirements
   d. Special difficulties (e.g., testing performance before functionality complete)
 
+Week 13: PERFORMANCE TESTING, CONTINUED
+
+31 MAR. Special Topics: Formal Analysis
+
 2 APR. Special Topics: Testing Distributed Systems
 
 Week 14: USABILITY TESTING
-7 APR. Special Topics: Usability Testing
+7 APR. Usability Testing
   a. How to define "usability"?
   a. Paper prototypes
   b. Human-centered design
 
-9 APR. Special Topics: Formal Analysis
+9 APR. Usability Testing, cont'd
 DUE: FINAL DELIVERABLE (30% of grade)
 
 Week 15: ON BEING A TESTER
