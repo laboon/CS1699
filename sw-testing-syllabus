@@ -106,7 +106,7 @@ Week 9: INTEGRATION AND ACCEPTANCE TESTING
 
 26 FEB. MID-TERM (20% of grade)
 
-Week 10: ADVANCED UNIT TESTING AND CODE ANALYSIS
+Week 10: Testing Web Applications
 3 MAR. Web Testing with Selenium
 
 5 MAR. Automated Web Testing with Selenium and Cucumber
@@ -116,14 +116,14 @@ Week 11
 
 12 MAR - SPRING BREAK - NO CLASS
 
-Week 12: WEB TESTING AND PROPERTY-BASED TESTING
-17 MAR. Special Topics: Combinatorial Testing
+Week 12: COMBINATORIAL AND PROPERTY-BASED TESTING
+17 MAR. Pairwise and Combinatorial Testing
 DUE: DELIVERABLE 3 (10% of grade)
 
-19 MAR. Special Topics: Property-Based Testing
+19 MAR. Property-Based Testing
 ASSIGNED: FINAL DELIVERABLE
 
-Week 13: COMBINATORIAL TESTING AND PERFORMANCE TESTING
+Week 13: PERFORMANCE TESTING
 24 MAR. Performance Testing
   a. Load/stress testing
   b. Timing
@@ -137,11 +137,11 @@ Week 13: COMBINATORIAL TESTING AND PERFORMANCE TESTING
   c. Writing and testing performance requirements
   d. Special difficulties (e.g., testing performance before functionality complete)
 
-Week 13: PERFORMANCE TESTING, CONTINUED
+Week 13: FORMAL ANALYSIS AND DISTRIBUTED SYSTEMS
 
-31 MAR. Special Topics: Formal Analysis
+31 MAR. Formal Analysis
 
-2 APR. Special Topics: Testing Distributed Systems
+2 APR. Writing Testable Code
 
 Week 14: USABILITY TESTING
 7 APR. Usability Testing
@@ -149,8 +149,7 @@ Week 14: USABILITY TESTING
   a. Paper prototypes
   b. Human-centered design
 
-9 APR. Usability Testing, cont'd
-DUE: FINAL DELIVERABLE (30% of grade)
+9 APR. Security Testing?
 
 Week 15: ON BEING A TESTER
 14 APR. Special Topics: Testing as a Career
@@ -161,5 +160,6 @@ Week 15: ON BEING A TESTER
   e. Soft skills
   f. How does software testing compare to traditional software engineering?
   g. War stories
+DUE: FINAL DELIVERABLE (30% of grade)
 
 16 APR. CUMULATIVE FINAL (20% of grade)
