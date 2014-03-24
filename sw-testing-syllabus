@@ -120,26 +120,26 @@ Week 12: COMBINATORIAL AND PROPERTY-BASED TESTING
 17 MAR. Pairwise and Combinatorial Testing
 DUE: DELIVERABLE 3 (10% of grade)
 
-19 MAR. Property-Based Testing
+19 MAR. Property-Based Testing & Formal Verification
 ASSIGNED: FINAL DELIVERABLE
 
-Week 13: PERFORMANCE TESTING
-24 MAR. Performance Testing
+Week 13: INFORMAL AND PERFORMANCE TESTING
+24 MAR. Exploratory, Smoke, Stochastic, and Red Routes Testing
+
+26 MAR. Performance Testing
   a. Load/stress testing
   b. Timing
   c. Resource usage
   d. Key Performance Indicators (KPI)
   e. Tools - JProfiler, perfmon, etc.
 
-26 MAR. Performance Testing, cont'd
+Week 13: PERFORMANCE TESTING AND TESTABLE CODE
+
+31 MAR. Performance Testing, cont'd
   a. Scaling
   b. Modeling
   c. Writing and testing performance requirements
   d. Special difficulties (e.g., testing performance before functionality complete)
-
-Week 13: FORMAL ANALYSIS AND DISTRIBUTED SYSTEMS
-
-31 MAR. Formal Analysis
 
 2 APR. Writing Testable Code
 
