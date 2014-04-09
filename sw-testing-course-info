@@ -1,4 +1,4 @@
-CS 1699 Special Topics in Computer Science: Software Testing
+aCS 1699 Special Topics in Computer Science: Software Testing
 
 Course Information
 
@@ -24,11 +24,11 @@ and automated tests, test-driven and behavior-driven development,
 performance testing, and understanding and developing a testing
 process.
 
-Grading: 
-         Mid-term Exam............ 20% 
+Grading:
+         Mid-term Exam............ 20%
          Final Exam:.............  20%
 
-         Group Project: 
+         Group Project:
            -> Deliverable 1....... 10%
            -> Deliverable 2....... 10%
            -> Deliverable 3....... 10%
@@ -52,7 +52,7 @@ borderline.
 
 All groups are expected to do their own work on the group project, but
 are more than welcome to collaborate and ask questions with other
-groups, the Internet, or other colleagues.  
+groups, the Internet, or other colleagues.
 
 However, any student caught collaborating or cheating on an exam will
 automatically receive a 0 (zero) for that exam, and may be penalized
@@ -82,7 +82,7 @@ without clearing it first with the instructor will result in a 0
 
 Group Project details -
 
-Students will group themselves into groups of size 2 - 4 students.
+Students will group themselves into groups of size 2 - 3 students.
 Note that larger groups will require proportionally more work; the
 amount of work per student should be the same despite the number of
 students in the group.  Students will perform the role of QA team on a
@@ -106,11 +106,11 @@ Deliverable 3 - Sufficient automated acceptance tests for a large
 subset of the project's functionality.
 
 Final Deliverable - Updated versions of Deliverables 1, 2, and 3,
-plus: 
+plus:
   -> Some kind of additional testing - combinatorial, performance,
      etc.  This will depend on the project.
   -> A report on the quality of the project and areas which were or were
-     not tested 
+     not tested
   -> Final sign-off - does the QA team recommend releasing this product?
      Why or why not?
 
@@ -146,4 +146,3 @@ University community and of their chosen field of study in carrying
 out academic assignments. A&S students are therefore expected to
 familiarize themselves with the published rules and regulations go to
 http://www.fcas.pitt.edu/academicintegrity.html
-
