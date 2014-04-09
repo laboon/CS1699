@@ -78,26 +78,21 @@ Week 6: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
   a. Who should be involved in stakeholder meetings?  Why?
   b. Reporting to management/other engineers/users/etc.
   c. Clarification of user requirements
-  d. Pushing back against "it works for me"
 
 12 FEB. Interacting with Stakeholders, Part II
   a. Integrating Theory and Practice
-  b. Role-Playing - Managers, Developers, Testers
+  b. Managers, Developers, Testers
 
 Week 7: Behavior-Driven Development
 17 FEB. Behavior-Driven Development
   a. Understanding user's needs
   b. Big Picture
-  c. Introduction to Cucumber
+  c. Introduction to Cucumber and the Gherkin language
 DUE: DELIVERABLE 2 (10% of grade)
 
 19 FEB. Writing Acceptance Tests for Behavior-Driven Development
-  a. Cucumber examples
-  b. Walk throughs of different kinds of BDD tests
-    i. User interface
-    ii. Logging
-    iii. Database insertions/deletions
-    iv. Web
+  a. Using Gherkin with Cucumber
+  b. Developing step definitions for Cucumber tests
 ASSIGNED: DELIVERABLE 3
 
 Week 9: INTEGRATION AND ACCEPTANCE TESTING
@@ -108,8 +103,13 @@ Week 9: INTEGRATION AND ACCEPTANCE TESTING
 
 Week 10: Testing Web Applications
 3 MAR. Web Testing with Selenium
+   a. What Selenium is
+   b. How to test websites and web applications
+   c. Examples
 
 5 MAR. Automated Web Testing with Selenium and Cucumber
+   a. Integrating BDD with Web Testing
+   b. Using Selenium with Cucumber
 
 Week 11
 10 MAR - SPRING BREAK - NO CLASS
@@ -118,13 +118,21 @@ Week 11
 
 Week 12: COMBINATORIAL AND PROPERTY-BASED TESTING
 17 MAR. Pairwise and Combinatorial Testing
+   a. What is pairwise/combinatorial testing?
+
 DUE: DELIVERABLE 3 (10% of grade)
 
 19 MAR. Property-Based Testing & Formal Verification
+   a. Theory of property-based testing
+   b. Overview of QuickCheck and writing property-based tests
+   c. An overview of formal verification
+   d. Pros and cons of each kind of testing
 ASSIGNED: FINAL DELIVERABLE
 
 Week 13: INFORMAL AND PERFORMANCE TESTING
 24 MAR. Exploratory, Smoke, Stochastic, and Red Routes Testing
+   a. Definitions
+   b. Their place in the software testing process
 
 26 MAR. Performance Testing
   a. Load/stress testing
@@ -142,24 +150,29 @@ Week 13: PERFORMANCE TESTING AND TESTABLE CODE
   d. Special difficulties (e.g., testing performance before functionality complete)
 
 2 APR. Writing Testable Code
+  a. SOLID principles
+  b. Law of Demeter
+  c. Why testable code tends to be "good code"
 
 Week 14: USABILITY TESTING
 7 APR. Usability Testing
   a. How to define "usability"?
-  a. Paper prototypes
   b. Human-centered design
 
-9 APR. Security Testing?
+9 APR. Security Testing
+  a. Information Security
+  b. Kinds of attacks
+  c. Penetration testing
+  d. Security audits and security planning
 
 Week 15: ON BEING A TESTER
 14 APR. Special Topics: Testing as a Career
   a. Quality Analyst
   b. Software Engineer in Test
-  c. What to expect
+  c. Test Manager
   d. How to be a good tester
   e. Soft skills
   f. How does software testing compare to traditional software engineering?
-  g. War stories
 DUE: FINAL DELIVERABLE (30% of grade)
 
 16 APR. CUMULATIVE FINAL (20% of grade)
