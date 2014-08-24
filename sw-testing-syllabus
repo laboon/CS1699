@@ -1,56 +1,48 @@
-Software Testing
+Software Quality Assurance - Fall 2014
 
-Week 1: INTRODUCTION AND TESTING BASICS
-
-6 JAN. Introduction - What is Software Testing?
+26 AUG. Introduction - What is Software Testing?
   a. What it is not – catching every single bug
   b. Verification vs Validation
   c. QA vs QC
   d. What is a bug, really?
 
-8 JAN. Testing Basics
+28 JAN. Testing Basics
   a. Equivalence classes
   b. Base cases, edge cases,  success cases, failure cases
   c. White / Black / Grey Box testing
   d. Static vs Dynamic Testing
 
-Week 2: REQUIREMENTS AND TEST PLANS
-13 JAN. Requirements Development and Testing
+2 SEP. Requirements Development and Testing
   a. Testability
   b. Functional Requirements
   c. Non-Functional (-ility) Requirements
     i. Scalability, reliability, usability, etc.
     ii. Special focus on whether or not it’s testable
   d. Traceability Matrices
-DUE: GROUP ASSIGNMENTS (0% of grade)
 
-15 JAN. Test Plans
+4 SEP. Test Plans
   a. Developing a test plan
   b. Executing a test plan -> test runs
   c. Test plan/run tracking
   d. Tying defects to test runs
 
-Week 3: DEFECTS - FINDING AND REPORTING
-20 JAN. Martin Luther King Day - NO CLASS
-
-22 JAN. Defects
+9 SEP. Defects
   a. Reporting a defect
     i. Expected behavior vs observed behavior
     ii. Descriptiveness
     iii. Reproducibility, etc.
   b. Tracking, Triaging and Prioritizing Defects
 
-Week 4: Automated Testing
-27 JAN. Automated and Manual Testing
+11 SEP. Automated and Manual Testing
   a. Benefits of manual vs automated testing
   b. Overview of tools used for automated testing (xUnit, rspec, Cucumber, STAF/STAX, etc.)
   c. Concepts of writing automated tests
     i. Minimize external dependencies
     ii. Minimize randomness
     iii. Expected vs observed behavior
-  DUE: DELIVERABLE 1 (10% of grade)
+  DUE: DELIVERABLE 1 (15% of grade)
 
-29 JAN. Writing Unit Tests
+16 SEP. Writing Unit Tests
   a. Unit test framework overview
   b. Execution Steps
   c. Assertions
@@ -58,14 +50,13 @@ Week 4: Automated Testing
   c. Ensuring that tests are testing what you think they are testing
   d. Examples
 
-Week 5: INFORMAL TESTING and TDD
-3 FEB. Advanced Unit Testing
+18 SEP. Advanced Unit Testing
   a. Stubbing and verification
   b. Mocking
   c. Unit test structure
   d. Code coverage
 
-5 FEB. Test-driven Development
+23 SEP. Test-driven Development
   a. Concepts
    i. Red-Green-Refactor
    ii. Minimal code to pass tests
@@ -73,106 +64,95 @@ Week 5: INFORMAL TESTING and TDD
   b. Benefits and Drawbacks
   c. Examples
 
-Week 6: INTERACTING WITH STAKEHOLDERS AND OTHER SYSTEMS
-10 FEB. Special Topics: Interacting with Stakeholders
+25 SEP. Special Topics: Interacting with Stakeholders
   a. Who should be involved in stakeholder meetings?  Why?
   b. Reporting to management/other engineers/users/etc.
   c. Clarification of user requirements
 
-12 FEB. Interacting with Stakeholders, Part II
+30 SEP. Interacting with Stakeholders, Part II
   a. Integrating Theory and Practice
   b. Managers, Developers, Testers
 
-Week 7: Behavior-Driven Development
-17 FEB. Behavior-Driven Development
+2 OCT. Behavior-Driven Development
   a. Understanding user's needs
   b. Big Picture
   c. Introduction to Cucumber and the Gherkin language
-DUE: DELIVERABLE 2 (10% of grade)
+DUE: DELIVERABLE 2 (15% of grade)
 
-19 FEB. Writing Acceptance Tests for Behavior-Driven Development
+7 OCT. Writing Acceptance Tests for Behavior-Driven Development
   a. Using Gherkin with Cucumber
   b. Developing step definitions for Cucumber tests
 ASSIGNED: DELIVERABLE 3
 
-Week 9: INTEGRATION AND ACCEPTANCE TESTING
-24 FEB. An Overview of Version Control with Git
+9 OCT. An Overview of Version Control with Git
   + Preparation for midterm
 
-26 FEB. MID-TERM (20% of grade)
+14 OCT. NO CLASS - FALL BREAK
 
-Week 10: Testing Web Applications
-3 MAR. Web Testing with Selenium
+16 OCT. MID-TERM (20% of grade)
+
+21 OCT. Web Testing with Selenium
    a. What Selenium is
    b. How to test websites and web applications
    c. Examples
 
-5 MAR. Automated Web Testing with Selenium and Cucumber
+23 OCT. Automated Web Testing with Selenium and Cucumber
    a. Integrating BDD with Web Testing
    b. Using Selenium with Cucumber
 
-Week 11
-10 MAR - SPRING BREAK - NO CLASS
+28 OCT 17 MAR. Pairwise and Combinatorial Testing
+DUE: DELIVERABLE 3 (15% of grade)
 
-12 MAR - SPRING BREAK - NO CLASS
-
-Week 12: COMBINATORIAL AND PROPERTY-BASED TESTING
-17 MAR. Pairwise and Combinatorial Testing
-   a. What is pairwise/combinatorial testing?
-
-DUE: DELIVERABLE 3 (10% of grade)
-
-19 MAR. Property-Based Testing & Formal Verification
+30 OCT. Property-Based Testing & Formal Verification
    a. Theory of property-based testing
    b. Overview of QuickCheck and writing property-based tests
    c. An overview of formal verification
    d. Pros and cons of each kind of testing
 ASSIGNED: FINAL DELIVERABLE
 
-Week 13: INFORMAL AND PERFORMANCE TESTING
-24 MAR. Exploratory, Smoke, Stochastic, and Red Routes Testing
+4 NOV. Exploratory, Smoke, Stochastic, and Red Routes Testing
    a. Definitions
    b. Their place in the software testing process
 
-26 MAR. Performance Testing
+6 NOV. Performance Testing
   a. Load/stress testing
   b. Timing
   c. Resource usage
   d. Key Performance Indicators (KPI)
   e. Tools - JProfiler, perfmon, etc.
 
-Week 13: PERFORMANCE TESTING AND TESTABLE CODE
-
-31 MAR. Performance Testing, cont'd
+11 NOV. Performance Testing, cont'd
   a. Scaling
   b. Modeling
   c. Writing and testing performance requirements
   d. Special difficulties (e.g., testing performance before functionality complete)
 
-2 APR. Writing Testable Code
+13 NOV. Writing Testable Code
   a. SOLID principles
   b. Law of Demeter
   c. Why testable code tends to be "good code"
 
-Week 14: USABILITY TESTING
-7 APR. Usability Testing
+18 NOV. Usability Testing
   a. How to define "usability"?
   b. Human-centered design
 
-9 APR. Security Testing
+20 NOV. Security Testing
   a. Information Security
   b. Kinds of attacks
   c. Penetration testing
   d. Security audits and security planning
 
+25 NOV. Security Testing, Part II
+
 Week 15: ON BEING A TESTER
-14 APR. Special Topics: Testing as a Career
+2 DEC. Special Topics: Testing as a Career
   a. Quality Analyst
   b. Software Engineer in Test
   c. Test Manager
   d. How to be a good tester
   e. Soft skills
   f. How does software testing compare to traditional software engineering?
-DUE: FINAL DELIVERABLE (30% of grade)
++ Review for Final
+DUE: FINAL DELIVERABLE (25% of grade)
 
-16 APR. CUMULATIVE FINAL (20% of grade)
+4 DEC. CUMULATIVE FINAL (15% of grade)

@@ -1,14 +1,17 @@
-aCS 1699 Special Topics in Computer Science: Software Testing
+CS 1699 Special Topics in Computer Science: Software Quality Assurance
 
 Course Information
 
-Taught by: Bill Laboon
+Taught by: Bill Laboon (bill@billlaboon.com)
+
+TA: Chris Hartman (crh40@pitt.edu)
 
 Class Time: MW 6:00 - 7:15.
 Room: SENSQ 5313
 
-Office Hours: SENSQ 6148, MW 5:00-6:00 or by appointment.  I am usually available
-on MW, but need advance notice to be on campus.
+Professor's Office Hours: SENSQ 6148, TH 5:15-6:00, after class, or by appointment.  I am usually available on W, but need advance notice to be on campus.
+
+TA Office Hours: T H 2:30-4:30, Room 5710
 
 Office hours subject to change based on student feedback.
 
@@ -25,14 +28,14 @@ performance testing, and understanding and developing a testing
 process.
 
 Grading:
-         Mid-term Exam............ 20%
-         Final Exam:.............  20%
+         Mid-term Exam............ 15%
+         Final Exam:.............  15%
 
          Group Project:
-           -> Deliverable 1....... 10%
-           -> Deliverable 2....... 10%
-           -> Deliverable 3....... 10%
-           -> Final Deliverable... 30%
+           -> Deliverable 1....... 15%
+           -> Deliverable 2....... 15%
+           -> Deliverable 3....... 15%
+           -> Final Deliverable... 25%
 
 Total: 100%.  The standard University of Pittsburgh grading scale will
 be used.  Class participation may be used to decide grades on the
@@ -82,10 +85,9 @@ without clearing it first with the instructor will result in a 0
 
 Group Project details -
 
-Students will group themselves into groups of size 2 - 3 students.
-Note that larger groups will require proportionally more work; the
-amount of work per student should be the same despite the number of
-students in the group.  Students will perform the role of QA team on a
+Students will be grouped into groups of 2.  For the first three deliverables, groups will be assigned and will be different each time.  For the final deliverable, you can choose to work alone, or choose your own partner (who must, of course, also agree to work with you)
+
+Students will perform the role of QA team on a
 project which can be selected either by themselves, or assigned by the
 instructor.  The group will have several deliverables over the course
 of the semester.
@@ -122,10 +124,8 @@ due.  Late deliverables will NOT be accepted.
 Programming Language Selection
 
 The instructor is open to groups using any programming language or
-testing framework.  However, it is recommended that it be done in
-Java, Ruby, or Haskell.  If your group decides to use another
-language, the instructor may not be able to help with problems
-specific to that language.
+testing framework.  However, it is *strongly* recommended that it be done in
+Java.  All of the tools discussed will be supported by the professor and TA. If your group decides to use another language, the instructor may not be able to help with problems specific to that language.
 
 ****
 
