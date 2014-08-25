@@ -1,13 +1,11 @@
-CS1699 - Software Testing
-Spring Semester 2014
+CS1699 - Software Quality Assurance
+Fall Semester 2014
 
 Deliverable 3
-Assigned 24 FEBRUARY 2014
-Due 17 MAR 2014
 
 For this assignment, your group will write systems tests (aka acceptance or integration tests) using the BDD model discussed in class.  That is, you will write user stories (features) and scenarios in Gherkin (or a similar language, if you prefer), and the step definitions in the language of your project.
 
-Tests and code should be on Github or another publicly accessible repository.  Code sent in via email will receive a 10% penalty.
+Tests and code should be on Github or another publicly accessible repository.
 
 Format:
 Every group should have a title page with:

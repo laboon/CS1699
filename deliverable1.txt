@@ -1,9 +1,7 @@
-CS1699 - Software Testing
-Spring Semester 2014
+CS1699 - Software Quality Assurance
+Fall Semester 2014
 
 Deliverable 1
-Assigned 15 JANUARY 2014
-Due 27 JANUARY 2014
 
 For this assignment, your group will determine the requirements and a test plan for your chosen piece of software (or a subset of it, as discussed).  Additionally, a traceability matrix showing the mapping of test cases to requirements is required.
 
@@ -11,7 +9,6 @@ I expect at least (5 * (number of people in group)) requirements.  In other word
 
 2 people : >= 10 requirements
 3 people : >= 15 requirements
-4 people : >= 20 requirements
 
 The requirements should completely cover the subset(s) of functionality chosen to test.  This may or may not be the entire application.  If you are going to do a subset of the functionality, please note what the subset is as part of your introduction.
 

@@ -1,13 +1,11 @@
-CS1699 - Software Testing
-Spring Semester 2014
+CS1699 - Software Quality Assurance
+Fall Semester 2014
 
 Deliverable 2
-Assigned 2 FEBRUARY 2014
-Due 17 FEBRUARY 2014
 
 For this assignment, your group will write unit tests for an object or other unit of code.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
 
-Additionally, you will email me your code and unit tests, OR a link to your tests and code on Github (+ 5% extra credit).
+Additionally, you will email me your code and unit tests, OR a link to your tests and code on Github.
 
 Format:
 Every group should have a title page with:

@@ -1,11 +1,7 @@
-CS1699 - Software Testing
-Spring Semester 2014
+CS1699 - Software Quality Assurance
+Fall Semester 2014
 
 Deliverable 4 - FINAL DELIVERABLE
-Assigned 19 MAR 2014
-Due 14 APR 2014
-
-30% of Grade
 
 For this assignment, your group will write up two test suites, of two different kinds; for example,
 a performance test suite and a security test suite.  These can be from the following list of topics gone
