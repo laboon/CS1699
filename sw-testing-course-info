@@ -11,7 +11,9 @@ Room: SENSQ 5129
 
 Class GitHub repo: https://www.github.com/laboon/cs1699
 
-Professor's Office Hours: SENSQ 6148, TH 5:30-6:00, after class, or by appointment.  I am usually available on W, but need advance notice to be on campus.
+Professor's Office Hours: SENSQ 6148, TH 5:30-6:00, after class, 
+or by appointment.  I am usually available on W, but need advance notice to 
+be on campus.
 
 TA Office Hours: T H 2:30-4:30, Room 6516 
 
@@ -89,7 +91,10 @@ without clearing it first with the instructor will result in a 0
 
 Group Project details -
 
-Students will be grouped into groups of 2.  For the first three deliverables, groups will be assigned and will be different each time.  For the final deliverable, you can choose to work alone, or choose your own partner (who must, of course, also agree to work with you)
+Students will be grouped into groups of 2.  For the first three deliverables, 
+groups will be assigned and will be different each time.  For the final 
+deliverable, you can choose to work alone, or choose your own partner 
+(who must, of course, also agree to work with you)
 
 Students will perform the role of QA team on a
 project which can be selected either by themselves, or assigned by the
@@ -111,14 +116,8 @@ project's functionality.
 Deliverable 3 - Sufficient automated acceptance tests for a large
 subset of the project's functionality.
 
-Final Deliverable - Updated versions of Deliverables 1, 2, and 3,
-plus:
-  -> Some kind of additional testing - combinatorial, performance,
-     etc.  This will depend on the project.
-  -> A report on the quality of the project and areas which were or were
-     not tested
-  -> Final sign-off - does the QA team recommend releasing this product?
-     Why or why not?
+Final Deliverable - Will vary based on the group.  See deliverable4.txt
+for details of what is expected.
 
 Deliverables must be handed in by close of class on the day that it is
 due.  Late deliverables will NOT be accepted.
