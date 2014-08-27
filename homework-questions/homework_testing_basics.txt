@@ -1,0 +1,38 @@
+Lecture 2 - Testing Basics - Homework
+
+1. A bakery sells doughnuts, and is offering a sale.  The more doughnuts you buy, the more you save!
+
+If you buy 1 to 5 doughnuts, you pay $0.50 per doughnut.
+If you buy 6 to 10 doughnuts, you pay $0.40 per doughnut.
+If you buy 11 or more doughnut, you pay $0.35 per doughnut.
+
+What are the equivalence classes?
+
+
+2. For the last problem, what are all the boundary values, explicit and implicit?
+
+3. A systems engineer has developed the following set of requirements for a new piece of hardware that tells you how much hard drive space you have available.  It has been split into equivalence classes for your convenience.  The device has one light on it which will change color based on how much hard drive space is free, and can be only one color at a time.  Assume that hard drive space is stored as integers of megabytes (MB) - that is, there can be 50 MB free or 51 MB free, not 50.5 MB free.
+
+[100 MB or more free] -> Light is GREEN
+[Between 10 MB and 110 MB free] -> Light is YELLOW
+[Between 0 and 9 MB free] -> Light is RED
+
+Is this a valid set of equivalence classes?  Why or why not?
+
+4. A tester is aware that a key function is missing a null pointer check.  The tester tries to send empty strings into the application using the user interface, knowing that elsewhere in the codebase, empty strings can be auto-converted to nulls.  The tester is hoping to cause a null pointer exception.  What kind of testing is this?  _________ - box testing
+
+5. A tester writes tests that check whether a function is inserting elements into a binary tree correctly.  This test checks a function directly.  This is an example of _______ - box testing.
+
+6. Label the following as SUCCESS or FAILURE cases.
+
+  a. Test that a calculator system returns 2 as the square root of 4.
+  b. Test that a database returns an error to the user if it cannot write to disk.
+  c. Test that a function throws an exception if a null reference is passed in.
+  d. Test that a function which makes all letters in a string lowercase returns "abc" when passed "ABC".
+
+7. You are testing the software of the doughnut store mentioned above.  Label the following as a BASE CASE, EDGE CASE, or CORNER CASE.
+  a. A user buys four doughnuts, and should pay $2.00.
+  b. A user buys 20,000 doughnuts, and should pay $7,000.00.
+  c. A user attempts to buy -21 doughnuts.
+
+8. Explain the difference between static and dynamic testing.

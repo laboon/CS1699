@@ -1,0 +1,29 @@
+1.
+[1 to 5 doughnuts] -> $0.50
+[6 to 10 doughnuts] -> $0.40
+[11 or more doughnuts] -> $0.35
+
+2. 5, 6, 10, 11 are all explicit boundary values
+   0, 1 is an implicit boundary between "no doughnuts" and "$0.50 doughnuts"
+   MAXINT is an implicit boundary between valid values and the maximum of the system
+   One may be able to argue that -1 and 0 are implicit boundaries between "valid" and "invalid" values (one can't buy negative doughnuts).
+
+
+3. No, it is not a valid set of equivalence classes.  It is not *strictly partitioned* - the values of [100, 101, ... , 109, 110 MB] exist in multiple equivalence classes.
+
+4. Grey - box testing.  The tester is using his or her knowledge of the codebase to develop black box tests.
+
+5. White - box testing.  The tester is testing the code and its constituent parts directly.
+
+6.
+a. SUCCESS
+b. FAILURE
+c. FAILURE
+d. SUCCESS
+
+7.
+a. BASE
+b. EDGE
+c. CORNER
+
+8. Static testing does not cause code to execute (e.g. code reviews, code coverage analaysis, complexity analysis).  Dynamic testing does cause code to execute (e.g. unit testing, integration testing).
