@@ -27,3 +27,4 @@ b. EDGE
 c. CORNER
 
 8. Static testing does not cause code to execute (e.g. code reviews, code coverage analaysis, complexity analysis).  Dynamic testing does cause code to execute (e.g. unit testing, integration testing).
+
