@@ -1,0 +1,21 @@
+1.
+
+a. It says HOW to do something (store in a linked list) instead of just WHAT to do (store all login attempts).
+b. It is not quantified when it could be (e.g., by saying that "the average database access time shall be 100 ms or less", for example).
+c. This requirement is ambiguous.  What stuff?  What things?
+d. This is not feasible to test - virtually everyone who worked on this project will be dead by the time it is complete..  It could be corrected to test, say 1 TB of data within 24 hours.
+
+2.
+
+a. Non-functional (Quality Attribute)
+b. Functional
+c. Functional
+d. Non-functional (Quality Attribute)
+ 
+3. 
+
+FUN-BILL: TEST-1, TEST-2
+FUN-FUNKY-CHICKEN: TEST-3
+FUN-CHICKEN-YES: TEST-8
+FUN-CHICKEN-NO: TEST-4
+FUN-INVALID-INPUT: TEST-5, TEST-6, TEST-7

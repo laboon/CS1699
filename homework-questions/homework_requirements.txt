@@ -1,0 +1,35 @@
+Requirements Homework
+
+1. All of the following requirements have a problem.  For each requirement, write down why it is not a good requirement.
+
+a. The system shall use a linked list to store all login attempts.
+b. The database shall be extremely fast.
+c. The network communications system shall do the things when the stuff happens.
+d. The calculation subsystem shall calculate 1,000 petabytes of standard data within 100 years.
+
+2. For each of the following requirements, determine if they are non-functional (a quality attribute) or functional.
+
+a. The system shall be secured against unauthorized personnel logging in via a username/password system.
+b. Whenever a negative number is entered for the square root function input, the system shall display a message indicating that imaginary numbers are not supported.
+c. The system shall write a WARNING message to logs whenever free disk space is less than 10 megabytes.
+d. Under normal usage (defined elsewhere), the system shall be able to respond to API requests within 500 milliseconds of receiving a request.
+
+3. Create a traceability matrix for the following requirements and tests.
+
+Requirements.
+FUN-BILL. The system shall say "Hi, Bill" whenever a user logs in.  This should be the case no matter what the actual name of the user.
+FUN-FUNKY-CHICKEN. The prompt shall be "Do funky chicken? (Y/N) > " and should be displayed immediately after login.
+FUN-CHICKEN-YES. If the user types "Y", the system shall display a dancing chicken for a period of no less than 5 seconds and no more than 10 seconds.  The system shall then exit.
+FUN-CHICKEN-NO. If the user types "N", the system shall display the message "Are you sure?  It's really funky." and display the prompt again.
+FUN-INVALID-INPUT. If the user types any character other than "Y" or "N", the system shall display the message "Quit trying to confuse me!" and display the prompt again.
+
+Tests (Informal)
+TEST-1. Log in to system as user "Joe".  The system should display the words "Hi, Bill" after login.
+TEST-2. Log in to system as user "Bill".  The system should display the words "Hi, Bill" after login.
+TEST-3. Log in to system as user "Joe".  Ensure that the prompt displays "Do funky chicken (Y/N) > ".
+TEST-4. After logging in and seeing prompt, type "N".  Ensure that a message is displayed stating "Are you sure?  It's really funky." and displays the prompt again.
+TEST-5. After logging in and seeing prompt, type "Q".  Ensure that a message is displayed saying "Quit trying to confuse me!" and displays the prompt again.
+TEST-6. After logging in and seeing prompt, type "!".  Ensure that a message is displayed saying "Quit trying to confuse me!" and displays the prompt again.
+TEST-7. After logging in and seeing prompt, type "~".  Ensure that a message is displayed saying "Quit trying to confuse me!" and displays the prompt again.
+TEST-8. After logging in and seeing prompt, type "Y".  Ensure that the system displays a chicken dancing for no less than five and no more than 10 seconds.
+
