@@ -40,7 +40,6 @@ Software Quality Assurance - Fall 2014
     i. Minimize external dependencies
     ii. Minimize randomness
     iii. Expected vs observed behavior
-  DUE: DELIVERABLE 1 (15% of grade)
 
 16 SEP. Writing Unit Tests
   a. Unit test framework overview
@@ -55,6 +54,7 @@ Software Quality Assurance - Fall 2014
   b. Mocking
   c. Unit test structure
   d. Code coverage
+DUE: DELIVERABLE 1 (15% of grade)
 
 23 SEP. Test-driven Development
   a. Concepts
