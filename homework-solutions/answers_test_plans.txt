@@ -1,0 +1,66 @@
+1.
+
+Requirements:
+
+FUN-EVEN-ITER: Given an input value of an even positive integer, the iterator function shall return the input value divided by two (n / 2).
+
+FUN-ODD-ITER: Given an input value of an even positive integer, the iterator function shall return the input value multiplied by three and adding one ( 3n + 1 ).
+
+FUN-INVALID-NUM: Given an input value which is not a positive integer, the iterator function shall display "ERROR: INVALID NUMBER" and  raise an InvalidNumberException.
+
+
+Test Plan:
+
+IDENTIFIER: 1
+TEST CASE: Check that the system will return n / 2 for the smallest valid even value of n, 2.
+PRECONDITIONS: System is running and "> " prompt is displayed÷
+INPUT VALUES: 2
+EXECUTION STEPS: Enter "2" at the prompt and press enter.
+OUTPUT VALUES: 1
+POSTCONDITIONS: "1" is displayed on the screen.  System is running.
+
+IDENTIFIER: 2
+TEST CASE: Check that the system will return n / 2 for a large, even value of n, 9002.
+PRECONDITIONS: System is running and "> " prompt is displayed÷
+INPUT VALUES: 9002
+EXECUTION STEPS: Enter "9002" at the prompt and press enter.
+OUTPUT VALUES: 4501
+POSTCONDITIONS: "4501" is displayed on the screen.  System is running.
+
+IDENTIFIER: 3
+TEST CASE: Check that the system will return 3n + 1 for the smallest odd valid value of n, 3.
+PRECONDITIONS: System is running and "> " prompt is displayed÷
+INPUT VALUES: 3
+EXECUTION STEPS: Enter "3" at the prompt and press enter.
+OUTPUT VALUES: 10
+POSTCONDITIONS: "10" is displayed on the screen.  System is running.
+
+IDENTIFIER: 4
+TEST CASE: Check that the system will return 3n + 1 for a large odd valid value of n, 9001.
+PRECONDITIONS: System is running and "> " prompt is displayed.
+INPUT VALUES: 9001
+EXECUTION STEPS: Enter "9001" at the prompt and press enter.
+OUTPUT VALUES: 27004
+POSTCONDITIONS: System is running.
+
+IDENTIFIER: 5
+TEST CASE: Check that the system will properly display an error message and exit if the invalid value of 0 is entered.
+PRECONDITIONS: System is running and "> " prompt is displayed.
+INPUT VALUES: 0
+EXECUTION STEPS: Enter "0" at the prompt and press enter.
+OUTPUT VALUES: None
+POSTCONDITIONS: "ERROR: INVALID NUMBER" is displayed.  System is no longer running.
+
+IDENTIFIER: 6
+TEST CASE: Check that the system will properly display an error message and exit if the invalid value of -10 is entered.
+PRECONDITIONS: System is running and "> " prompt is displayed.
+INPUT VALUES: -10
+EXECUTION STEPS: Enter "-10" at the prompt and press enter.
+OUTPUT VALUES: None
+POSTCONDITIONS: "ERROR: INVALID NUMBER" is displayed.  System is no longer running.
+
+Traceability Matrix:
+
+FUN-EVEN-ITER: 1, 2
+FUN-ODD-ITER: 3, 4
+FUN-INVALID: 5, 6

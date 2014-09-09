@@ -1,0 +1,31 @@
+1. Write up a set of requirements and a test plan for a Collatz iterator.  The Collatz conjecture is that for any given positive integer n, if you apply the following operations:
+
+n = n / 2, if n is even
+n = 3n + 1, if n is odd
+
+Then you will always eventually reach the value 1.  For example,
+
+5 -> 16 -> 8 -> 4 -> 2 -> 1
+6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+32 -> 16 -> 8 -> 4 -> 2 -> 1
+
+Assume you want to write up a test for the iterator portion of the program, as described by the method signature below.  Assume that there is a minimal user interface which allows a user to enter an integer, and the program will loop, constntly accepting new user input after each value is entered.  The system should display an appropriate error message and exit (stop looping and cease execution) if the entered value is invalid.  Be sure to check for all possible conditions!  
+
+```java
+public static int iterate(int n) {
+    ...
+}
+```
+
+An example run of the iterator with its interface would be:
+```
+> 4
+2
+> 3
+10
+> -8
+ERROR: INVALID NUMBER
+*program exits*
+```
+
+
