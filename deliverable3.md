@@ -1,17 +1,17 @@
-CS1699 - Software Quality Assurance
+# CS1699 - Software Quality Assurance
 Fall Semester 2014
 
-Deliverable 3
+## Deliverable 3
 
 For this assignment, your group will write systems tests (aka acceptance or integration tests) using the BDD model discussed in class.  That is, you will write user stories (features) and scenarios in Gherkin (or a similar language, if you prefer), and the step definitions in the language of your project.
 
 Tests and code should be on Github or another publicly accessible repository.
 
-Format:
+## Format
 Every group should have a title page with:
-The name of the project under test
-The names of the people in the group
-The title CS1699 - DELIVERABLE 3: Systems Testing with BDD
+* The name of the project under test
+* The names of the people in the group
+* The title CS1699 - DELIVERABLE 3: Systems Testing with BDD
 
 First, include a short summary (a few paragraphs) of what you decided to test, and why.
 
@@ -33,15 +33,14 @@ Scenarios should all follow the Given/When/Then template (but note that some sce
 
 Remember that scenarios are FEATURE-level tests; they should discuss things in a way that an intelligent but non-technical user of the software would understand.  Remember the differences between scenario tests and specification/unit tests!
 
-Grading:
-Summary - 5%
-Testing concerns - 10% 
-Screen shot or printout of test results - 5%
-User Stories and Scenarios, written in Gherkin - 40%
-Step Definitions - 40%
+## Grading
+* Summary - 5%
+* Testing concerns - 10% 
+* Screen shot or printout of test results - 5%
+* User Stories and Scenarios, written in Gherkin - 40%
+* Step Definitions - 40%
 
 Reminder that all code (project under test AND test code) should be publicly available, or at least available to me.
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
-
  

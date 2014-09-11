@@ -1,17 +1,17 @@
-CS1699 - Software Quality Assurance
+# CS1699 - Software Quality Assurance
 Fall Semester 2014
 
-Deliverable 2
+## Deliverable 2
 
 For this assignment, your group will write unit tests for an object or other unit of code.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
 
 Additionally, you will email me your code and unit tests, OR a link to your tests and code on Github.
 
-Format:
+## Format
 Every group should have a title page with:
-The name of the project under test
-The names of the people in the group
-The title CS1699 - DELIVERABLE 2: Unit Testing and Code Coverage
+* The name of the project under test
+* The names of the people in the group
+* The title CS1699 - DELIVERABLE 2: Unit Testing and Code Coverage
 
 The summary should explain why you chose this particular object to test and what it does. This should be relatively short, a few paragraphs at the most.
 
@@ -33,32 +33,31 @@ I expect 15 * (number of students in group) unit tests, using a variety of asser
 
 Before each test, add some comments explaining what it is testing.  For example...
 
-//  Two LLs with different sizes should never be equal.
-//  Create two linked lists, both of which have the same value in the initial node,
-// but one has several more nodes. 
-// They should not be equal to each other.
-	@Test
-	public void testNotEqualsDiffSizes() {
-		LinkedList<Integer> ll11 = new LinkedList<Integer>();
-		LinkedList<Integer> ll_3elems = new LinkedList<Integer>();
+	//  Two LLs with different sizes should never be equal.
+	//  Create two linked lists, both of which have the same value in the initial node,
+	// but one has several more nodes. 
+	// They should not be equal to each other.
+		@Test
+		public void testNotEqualsDiffSizes() {
+			LinkedList<Integer> ll11 = new LinkedList<Integer>();
+			LinkedList<Integer> ll_3elems = new LinkedList<Integer>();
 
-		ll11.addToFront(new Node<Integer>(new Integer(1)));
-		ll_3elems.addToFront(new Node<Integer>(new Integer(3)));
-		ll_3elems.addToFront(new Node<Integer>(new Integer(2)));
-		ll_3elems.addToFront(new Node<Integer>(new Integer(1)));
+			ll11.addToFront(new Node<Integer>(new Integer(1)));
+			ll_3elems.addToFront(new Node<Integer>(new Integer(3)));
+			ll_3elems.addToFront(new Node<Integer>(new Integer(2)));
+			ll_3elems.addToFront(new Node<Integer>(new Integer(1)));
 
-		assertFalse(ll_3elems.equals(ll11));
-	}
+			assertFalse(ll_3elems.equals(ll11));
+		}
 
-Grading:
-Summary - 10%
-Testing concerns - 10% 
-Screenshot of executed unit tests - 10%
-Unit test coverage report - 20%
-Unit test code - 50%
+## Grading
+* Summary - 10%
+* Testing concerns - 10% 
+* Screenshot of executed unit tests - 10%
+* Unit test coverage report - 20%
+* Unit test code - 50%
 
 I will give a +5% bonus if you put your test code on Github or another web-accessible version control site.  Note that this does not mean just putting it up on an FTP site or similar; it must be an actual version control system.
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
-
  
