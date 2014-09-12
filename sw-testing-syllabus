@@ -33,7 +33,8 @@ Software Quality Assurance - Fall 2014
     iii. Reproducibility, etc.
   b. Tracking, Triaging and Prioritizing Defects
 
-11 SEP. Automated and Manual Testing
+11 SEP. An Overview of Version Control with Git
++ Automated and Manual Testing
   a. Benefits of manual vs automated testing
   b. Overview of tools used for automated testing (xUnit, rspec, Cucumber, STAF/STAX, etc.)
   c. Concepts of writing automated tests
@@ -46,8 +47,8 @@ Software Quality Assurance - Fall 2014
   b. Execution Steps
   c. Assertions
   d. Examples
-  c. Ensuring that tests are testing what you think they are testing
-  d. Examples
+  e. Ensuring that tests are testing what you think they are testing
+  f. Examples
 
 18 SEP. Advanced Unit Testing
   a. Stubbing and verification
@@ -84,8 +85,7 @@ DUE: DELIVERABLE 2 (15% of grade)
   b. Developing step definitions for Cucumber tests
 ASSIGNED: DELIVERABLE 3
 
-9 OCT. An Overview of Version Control with Git
-  + Preparation for midterm
+9 OCT. Preparation for Midterm
 
 14 OCT. NO CLASS - FALL BREAK
 

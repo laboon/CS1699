@@ -1,14 +1,14 @@
-CS1699 - Software Quality Assurance
+# CS1699 - Software Quality Assurance
 Fall Semester 2014
 
-Deliverable 1
+## Deliverable 1
 
 For this assignment, your group will determine the requirements and a test plan for your chosen piece of software (or a subset of it, as discussed).  Additionally, a traceability matrix showing the mapping of test cases to requirements is required.
 
 I expect at least (5 * (number of people in group)) requirements.  In other words, if you have:
 
-2 people : >= 10 requirements
-3 people : >= 15 requirements
+	2 people : >= 10 requirements
+	3 people : >= 15 requirements
 
 The requirements should completely cover the subset(s) of functionality chosen to test.  This may or may not be the entire application.  If you are going to do a subset of the functionality, please note what the subset is as part of your introduction.
 
@@ -23,7 +23,7 @@ It is NOT necessary to make multiple test plans inside a test suite; it is enoug
 
 It is NOT necessary to actually execute the test cases, although this may be useful for determining ambiguities or gaps in testing coverage. 
 
-Format:
+## Format
 Please hand in the paper to me with a cover page with -
 The name of the project under test
 The names of the people in the group
@@ -39,22 +39,21 @@ This should be followed ON A NEW PAGE by the listing of requirements.  You may n
 
 This should be followed ON A NEW PAGE by the list of test cases.  You may name or number them any way you wish, but be consistent.  You may wish to write them out in this format -
 
-IDENTIFIER:
-TEST CASE: 
-PRECONDITIONS:
-INPUT VALUES:
-EXECUTION STEPS:
-OUTPUT VALUES:
-POSTCONDITIONS:
+	IDENTIFIER:
+	TEST CASE: 
+	PRECONDITIONS:
+	INPUT VALUES:
+	EXECUTION STEPS:
+	OUTPUT VALUES:
+	POSTCONDITIONS:
 
 Finally, on a separate page, a traceability matrix should be provided mapping the test cases with their associated requirements.  Remember that all requirements should map to AT LEAST ONE test case, and all test cases should map to EXACTLY ONE requirement.  
 
-Grading:
-Introduction / Justifications: 10% of grade
-Requirements: 30% of grade
-Test Plan: 40% of grade
-Traceability Matrix: 20% of grade
+## Grading
+* Introduction / Justifications: 10% of grade
+* Requirements: 30% of grade
+* Test Plan: 40% of grade
+* Traceability Matrix: 20% of grade
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
-
  
