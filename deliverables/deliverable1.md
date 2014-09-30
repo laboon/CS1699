@@ -25,9 +25,9 @@ It is NOT necessary to actually execute the test cases, although this may be use
 
 ## Format
 Please hand in the paper to me with a cover page with -
-The name of the project under test
-The names of the people in the group
-The title CS1699 - DELIVERABLE 1: Requirements, Test Plan, and Traceability Matrix
+* The name of the project under test
+* The names of the people in the group
+* The title CS1699 - DELIVERABLE 1: Requirements, Test Plan, and Traceability Matrix
 
 There should be a short (approximately one paragraph) introduction stating what the project under test is, and which subset(s) of functionality you will be testing.
 
