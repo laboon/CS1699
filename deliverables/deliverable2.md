@@ -5,7 +5,7 @@ Fall Semester 2014
 
 For this assignment, your group will write unit tests for an object or other unit of code.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
 
-Additionally, you will email me your code and unit tests, OR a link to your tests and code on Github.
+All code and tests should be on Github or a similar repository accessible to me.
 
 ## Format
 Every group should have a title page with:
@@ -56,8 +56,6 @@ Before each test, add some comments explaining what it is testing.  For example.
 * Screenshot of executed unit tests - 10%
 * Unit test coverage report - 20%
 * Unit test code - 50%
-
-I will give a +5% bonus if you put your test code on Github or another web-accessible version control site.  Note that this does not mean just putting it up on an FTP site or similar; it must be an actual version control system.
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
  
