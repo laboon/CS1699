@@ -1,17 +1,17 @@
-# CS1699 - Software Quality Assurance
+# CS 1699 - Software Quality Assurance
 Fall Semester 2014
 
 ## Deliverable 2
 
 For this assignment, your group will write unit tests for an object or other unit of code.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
 
-All code and tests should be on Github or a similar repository accessible to me.
+All code and tests should be on GitHub or a similar repository accessible to me.
 
 ## Format
 Every group should have a title page with:
 * The name of the project under test
 * The names of the people in the group
-* The title CS1699 - DELIVERABLE 2: Unit Testing and Code Coverage
+* The title "CS 1699 - DELIVERABLE 2: Unit Testing and Code Coverage"
 
 The summary should explain why you chose this particular object to test and what it does. This should be relatively short, a few paragraphs at the most.
 
@@ -23,7 +23,7 @@ After this, ON A SEPARATE PAGE, include a screen shot of the executed unit tests
 
 ON A SEPARATE PAGE, include either a screenshot or output from a code coverage tool of your tests and the object they cover.
 
-There is no need to print out the code.  It should be emailed to me or put on a publicly-available site such as Github BY THE BEGINNING OF CLASS.
+There is no need to print out the code.  It should be emailed to me or put on a publicly-available site such as GitHub BY THE BEGINNING OF CLASS.
 
 At least three (3) unit tests should use mocks/doubles.
 
