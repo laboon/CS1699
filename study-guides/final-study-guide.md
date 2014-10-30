@@ -1,13 +1,14 @@
-CS1699 Spring 2014 Final Study Guide
+# CS 1699 Final Exam Study Guide
+Spring 2014
 
-WEB TESTING -
+## WEB TESTING
 * Be able to explain how you would test a web page with Selenium
 * You do NOT need to know Selenese (Selenium scripting language)
 * Be able to talk about WHY a given script is good or bad, and possible problems
 * Be able to discuss issues with testing web apps (page loading timing issues, javascript issues, etc)
 * Integrating Cucumber/Gherkin with Selenium for web testing (be able to discuss)
 
-PAIRWISE/COMBINATORIAL TESTING -
+## PAIRWISE/COMBINATORIAL TESTING
 * Be able to define
 * Be able to determine when/where to use, when it might be overkill or not enough
 * Understand the Pareto (80/20) rule in regards to combinatorial testing
@@ -16,44 +17,44 @@ PAIRWISE/COMBINATORIAL TESTING -
 * Understand how it could be used for different realms, e.g. system combinations (OS, Browser, etc.)
 * Benefits and drawbacks
 
-PROPERTY-BASED TESTING
+## PROPERTY-BASED TESTING
 * Be able to define
 * Be able to develop property tests (not in any specific language) for a given pure function
 * What is useful for testing?  What is not useful for testing?
 * Understand terminology: invariants, shrinking, falsifying
 
-FORMAL VERIFICATION
+## FORMAL VERIFICATION
 * Be able to define
 * Predictable execution, partial correctness, full correctness
 * When is this useful/not useful?
 
-EXPLORATORY TESTING
+## EXPLORATORY TESTING
 * Be able to define
 * When is it useful?  When is it not?
 * Benefits/drawbacks
 
-SMOKE TESTS
+## SMOKE TESTS
 * Be able to define
 * Given a system, be able to determine a smoke test for it
 * Scripted vs unscripted
 * Sanity testing
 
-STOCHASTIC ("FUZZ") TESTING
+## STOCHASTIC ("FUZZ") TESTING
 * Be able to define, list benefits/drawbacks
 * Think of good inputs to push (e.g., JSON, executable code, JavaScript, SQL, etc.)
 * Understand dumb, smart, evil, chaos monkey testing
-* Other ways to test similar to chaos monkey: reduce bandwidth, modified permissions, etc
+* Other ways to test similar to chaos monkey: reduce bandwidth, modified permissions, etc.
 
-DISTRIBUTED SYSTEMS TESTING
+## DISTRIBUTED SYSTEMS TESTING
 * Know the outline of the Fallacies of Distributed Computing
 * No need to memorize, but know how you could write tests taking advantage of developers who fall for them)
 * Graceful degradation - define and explain as part of a test
 
-RED ROUTE TESTING
+## RED ROUTE TESTING
 * Define red routes
 * Given a system description, be able to determine red routes and justify
 
-PERFORMANCE TESTING
+## PERFORMANCE TESTING
 * Understand concepts on how to test performance
 * Be able to write test plans for different performance indicators and systems
 * Terminology: Service-Oriented vs Efficiency-Oriented Indicators
@@ -68,13 +69,13 @@ PERFORMANCE TESTING
 * Key resources to watch, and why
 * When to use a packet analyzer or profiler and their (very basic) usage
 
-WRITING TESTABLE CODE
+## WRITING TESTABLE CODE
 * Basic strategy for testable code
 * The DRY Principle
 * The SOLID Principles
 * The Law of Demeter
 
-USABILITY TESTING
+## USABILITY TESTING
 * Personas
 * Be able to develop a low-fi prototype
 * Effectiveness, efficiency, satisfaction
@@ -82,9 +83,11 @@ USABILITY TESTING
 * Think-aloud walkthrough
 * Heuristic evaluation
 
-SECURITY TESTING
+## SECURITY TESTING
 * The CIA/InfoSec Triad
 * Terminology: passive vs active,  public-key cryptography, vulnerability, exploit
 * Terminology: interruption, interception, modification, fabrication
 * Be able to define different kinds of malware (virus, worm, etc.)
-* Be able to describe/test for common attacks: injection, broken authentication, XSS, insecure storage, buffer overruns, smashing the stack, security misconfiguration, insecure object references, social engineering
+* Be able to describe/test for common attacks: injection, broken authentication, XSS,
+  insecure storage, buffer overruns, smashing the stack, security misconfiguration,
+  insecure object references, social engineering
