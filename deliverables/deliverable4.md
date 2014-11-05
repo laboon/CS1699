@@ -116,7 +116,7 @@ GitHub BY THE BEGINNING OF CLASS.
 
 ## Grading
 * Summary - 5%
-* Testing concerns / Concerns going forward- 5%
+* Testing concerns / Concerns going forward - 5%
 * Assessment of Quality - 10%
 * Test Suite 1 - 40%
   * Including screen shot or printout of test results
