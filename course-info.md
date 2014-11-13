@@ -37,8 +37,8 @@ process.
   * Deliverable 3 - 15%
   * Final Deliverable - 25%
 
-The standard University of Pittsburgh grading scale will
-be used.  Class participation may be used to decide grades on the
+The following grading scale will be used.
+Class participation may be used to decide grades on the
 borderline.
 
 Score  | Grade
