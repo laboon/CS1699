@@ -1,4 +1,4 @@
-# CS1699 - Software Quality Assurance
+# CS 1699 - Software Quality Assurance
 Fall Semester 2014
 
 ## Deliverable 4 - FINAL DELIVERABLE
@@ -8,7 +8,7 @@ a performance test suite and a security test suite.  These can be from the follo
 over in class, or you can research and use your own.  If you are using your own, please
 check with me before working on it.
 
-1. Web testing
+1. Web Testing
 2. Performance Testing
 3. Security Testing
 4. Usability Testing
@@ -20,9 +20,9 @@ The number of tests is going to vary based on the kinds of testing you do.  As a
 there should be about as many tests per test suite as expected for one of the previous
 deliverables.  Some rules of thumb:
 
-1. Web testing - approx 5 tests * (number of members of the group)
-2. Performance testing - approx 5 tests * (number of members of group)
-3. Security testing  - A good analysis of one aspect of security per group member
+1. Web Testing - approx 5 tests * (number of members of the group)
+2. Performance Testing - approx 5 tests * (number of members of group)
+3. Security Testing  - A good analysis of one aspect of security per group member
 4. Usability Testing - Depends on the kind of usability testing done
 5. Combinatorial Testing - approx 5 tests * (number of members per group)
 6. Property-Based Testing - approx 5 tests * (number of members of group)
@@ -47,7 +47,7 @@ Finally, there should be a section which explains the following:
     of the project?
 3. What is your assessment of the quality of the product, based on your testing?
 
-Tests and code should be on Github or another publicly accessible repository.
+Tests and code should be on GitHub or another publicly accessible repository.
 Code sent in via email will receive a 10% penalty.
 
 The quality of your write-up can and will impact your grade.  For a perfect grade, I expect
@@ -86,7 +86,7 @@ professional quality on ALL aspects of your testing, including:
 Every group should have a title page with:
 * The name of the project under test
 * The names of the people in the group
-* The title CS1699 - FINAL DELIVERABLE
+* The title "CS 1699 - FINAL DELIVERABLE"
 
 First, include a short summary (a few paragraphs) of what you decided to test, what kinds of
 testing you are doing, and why.
@@ -97,6 +97,7 @@ tests you would like to run to get a better assessment of the quality of the sys
 also be a few paragraphs.
 
 I also expect an assessment of quality of the project under test.  This will include:
+
 1. A list of any failed tests or problem areas
 2. A red/yellow/green-template of the different areas of the system
    (e.g., Database - Red, Front End - Green, etc.) with justifications
@@ -111,11 +112,11 @@ At the end of this section, note where your code (test code and code of project 
 After this, there should be printouts or screen shots of the test execution results.
 
 There is no need to print out the code.  It should be put on a publicly-available site such as
-Github BY THE BEGINNING OF CLASS.
+GitHub BY THE BEGINNING OF CLASS.
 
 ## Grading
 * Summary - 5%
-* Testing concerns / Concerns going forward- 5%
+* Testing concerns / Concerns going forward - 5%
 * Assessment of Quality - 10%
 * Test Suite 1 - 40%
   * Including screen shot or printout of test results

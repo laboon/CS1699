@@ -1,4 +1,4 @@
-# CS1699 - Software Quality Assurance
+# CS 1699 - Software Quality Assurance
 Fall Semester 2014
 
 ## Deliverable 1
@@ -24,10 +24,10 @@ It is NOT necessary to make multiple test plans inside a test suite; it is enoug
 It is NOT necessary to actually execute the test cases, although this may be useful for determining ambiguities or gaps in testing coverage. 
 
 ## Format
-Please hand in the paper to me with a cover page with -
+Please hand in the paper to me with a cover page with:
 * The name of the project under test
 * The names of the people in the group
-* The title CS1699 - DELIVERABLE 1: Requirements, Test Plan, and Traceability Matrix
+* The title "CS 1699 - DELIVERABLE 1: Requirements, Test Plan, and Traceability Matrix"
 
 There should be a short (approximately one paragraph) introduction stating what the project under test is, and which subset(s) of functionality you will be testing.
 
