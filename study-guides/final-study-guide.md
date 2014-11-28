@@ -1,5 +1,5 @@
 # CS 1699 Final Exam Study Guide
-Spring 2014
+Fall 2014
 
 ## WEB TESTING
 * Be able to explain how you would test a web page with Selenium
@@ -26,7 +26,7 @@ Spring 2014
 ## FORMAL VERIFICATION
 * Be able to define
 * Predictable execution, partial correctness, full correctness
-* When is this useful/not useful?
+* When is this useful/not useful?  What programs might you use it for / not use it for?
 
 ## EXPLORATORY TESTING
 * Be able to define
@@ -46,8 +46,7 @@ Spring 2014
 * Other ways to test similar to chaos monkey: reduce bandwidth, modified permissions, etc.
 
 ## DISTRIBUTED SYSTEMS TESTING
-* Know the outline of the Fallacies of Distributed Computing
-* No need to memorize, but know how you could write tests taking advantage of developers who fall for them)
+* Chaos Monkey testing and other kinds of monkey testing
 * Graceful degradation - define and explain as part of a test
 
 ## RED ROUTE TESTING
@@ -88,6 +87,4 @@ Spring 2014
 * Terminology: passive vs active,  public-key cryptography, vulnerability, exploit
 * Terminology: interruption, interception, modification, fabrication
 * Be able to define different kinds of malware (virus, worm, etc.)
-* Be able to describe/test for common attacks: injection, broken authentication, XSS,
-  insecure storage, buffer overruns, smashing the stack, security misconfiguration,
-  insecure object references, social engineering
+* Be able to describe/test for common attacks: injection, broken authentication, XSS, insecure storage, buffer overruns, smashing the stack, security misconfiguration, insecure object references, social engineering
