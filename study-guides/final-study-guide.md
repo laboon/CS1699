@@ -1,5 +1,6 @@
 # CS 1699 Final Exam Study Guide
-Spring 2014
+NOTE - Material on the Midterm Study Guide is fair game as well!
+Fall 2014
 
 ## WEB TESTING
 * Be able to explain how you would test a web page with Selenium
@@ -46,8 +47,7 @@ Spring 2014
 * Other ways to test similar to chaos monkey: reduce bandwidth, modified permissions, etc.
 
 ## DISTRIBUTED SYSTEMS TESTING
-* Know the outline of the Fallacies of Distributed Computing
-* No need to memorize, but know how you could write tests taking advantage of developers who fall for them)
+* Understand how to test - why is it difficult?  What tools are available?
 * Graceful degradation - define and explain as part of a test
 
 ## RED ROUTE TESTING
