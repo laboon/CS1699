@@ -1,5 +1,6 @@
 # CS 1699 Final Exam Study Guide
 NOTE - Material on the Midterm Study Guide is fair game as well!
+
 Fall 2014
 
 ## WEB TESTING
