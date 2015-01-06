@@ -1,5 +1,6 @@
 # CS 1699 Final Exam Study Guide
 NOTE - Everything on the midterm study guide is also fair game for the final!
+
 Fall 2014
 
 ## WEB TESTING
@@ -48,6 +49,7 @@ Fall 2014
 
 ## DISTRIBUTED SYSTEMS TESTING
 * Chaos Monkey testing and other kinds of monkey testing
+* Understand how to test - why is it difficult?  What tools are available?
 * Graceful degradation - define and explain as part of a test
 
 ## RED ROUTE TESTING
