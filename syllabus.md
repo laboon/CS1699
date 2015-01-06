@@ -1,19 +1,21 @@
-# Syllabus - Fall 2014
-Software Quality Assurance
+# Syllabus - Spring 2015
+CS1699: Special Topics - Software Testing
 
-* **26 AUG.** Introduction - What is Software Testing?
+## WEEK 1 (6 JAN)
+*  Introduction - What is Software Testing?
   * What it is not – catching every single bug
   * Verification vs Validation
   * QA vs QC
   * What is a bug, really?
 
-* **28 AUG.** Testing Basics
+* Testing Basics
   * Equivalence classes
   * Base cases, edge cases,  success cases, failure cases
   * White / Black / Grey Box testing
   * Static vs Dynamic Testing
 
-* **2 SEP.** Requirements Development and Testing
+## WEEK 2 (13 JAN)
+* Requirements Development and Testing
   * Testability
   * Functional Requirements
   * Non-Functional (-ility) Requirements
@@ -21,31 +23,38 @@ Software Quality Assurance
     * Special focus on whether or not it’s testable
   * Traceability Matrices
 
-* **4 SEP.** Test Plans
+* Test Plans
   * Developing a test plan
   * Executing a test plan -> test runs
   * Test plan/run tracking
   * Tying defects to test runs
-  * ASSIGNED: DELIVERABLE 1
 
-* **9 SEP.** Defects
+* Exploratory, Smoke, Stochastic Testing
+  * Definitions
+  * Their place in the software testing process
+
+* ASSIGNED: DELIVERABLE 1
+
+## WEEK 3 (20 JAN)
+*  Defects
   * Reporting a defect
     * Expected behavior vs observed behavior
     * Descriptiveness
     * Reproducibility, etc.
   * Tracking, Triaging and Prioritizing Defects
 
-* **11 SEP.**
-  * An Overview of Version Control with Git  
-  * Automated and Manual Testing
+* Automated and Manual Testing
     * Benefits of manual vs automated testing
-    * Overview of tools used for automated testing (xUnit, rspec, Cucumber, STAF/STAX, etc.)
+    * Overview of tools used for automated testing
     * Concepts of writing automated tests
       * Minimize external dependencies
       * Minimize randomness
       * Expected vs observed behavior
 
-* **16 SEP.** Writing Unit Tests
+* An Overview of Version Control with Git  
+
+## WEEK 4 (27 JAN)
+* Writing Unit Tests
   * Unit test framework overview
   * Execution Steps
   * Assertions
@@ -53,110 +62,128 @@ Software Quality Assurance
   * Ensuring that tests are testing what you think they are testing
   * Examples
 
-* **18 SEP.** Advanced Unit Testing
+*  Advanced Unit Testing
   * Stubbing and verification
   * Mocking
   * Unit test structure
   * Code coverage
-  * **DUE: DELIVERABLE 1 (15% of grade)**
 
-* **23 SEP.** Test-driven Development
+* **DUE: DELIVERABLE 1 (15% of grade)**
+
+## WEEK 5 (3 FEB)
+
+* Test-driven Development
   * Concepts
     * Red-Green-Refactor
     * Minimal code to pass tests
     * Increase tests to specify behavior
   * Benefits and Drawbacks
+  * Knowing What To Test
   * Examples
-  * ASSIGNED: DELIVERABLE 2
 
-* **25 SEP.** Special Topics: Interacting with Stakeholders
-  * Who should be involved in stakeholder meetings?  Why?
-  * Reporting to management/other engineers/users/etc.
-  * Clarification of user requirements
+* Writing Testable Code
+  * SOLID principles
+  * Law of Demeter
+  * Why testable code tends to be "good code"
 
-* **30 SEP.** Interacting with Stakeholders, Part II
-  * Integrating Theory and Practice
-  * Managers, Developers, Testers
 
-* **2 OCT.** Behavior-Driven Development
+* ASSIGNED: DELIVERABLE 2
+
+## WEEK 6 (10 FEB)
+
+* Behavior-Driven Development
   * Understanding user's needs
   * Big Picture
-  * Introduction to Cucumber and the Gherkin language
-  * **DUE: DELIVERABLE 2 (15% of grade)**
+  * A Very Brief Introduction to Cucumber and the Gherkin language
 
-* **7 OCT.** Writing Acceptance Tests for Behavior-Driven Development
+* Writing Acceptance Tests for Behavior-Driven Development
   * Using Gherkin with Cucumber
   * Developing step definitions for Cucumber tests
-  * ASSIGNED: DELIVERABLE 3
 
-* **9 OCT.** Preparation for Midterm
+## WEEK 7 (17 FEB)
 
-* **14 OCT.** **NO CLASS - FALL BREAK**
-
-* **16 OCT.** **MID-TERM (20% of grade)**
-
-* **21 OCT.** Web Testing with Selenium
+* Web Testing with Selenium
   * What Selenium is
   * How to test websites and web applications
+  * Do's and Don't
   * Examples
 
-* **23 OCT.** Automated Web Testing with Selenium and Cucumber
+* Automated Web Testing with Selenium / JUnit
   * Integrating BDD with Web Testing
-  * Using Selenium with Cucumber
 
-* **28 OCT.** Pairwise and Combinatorial Testing
-  * **DUE: DELIVERABLE 3 (15% of grade)**
+* DUE: DELIVERABLE 2
+* ASSIGNED: DELIVERABLE 3
 
-* **30 OCT.** Property-Based Testing & Formal Verification
+## WEEK 8 (24 FEB)
+
+* Pairwise and Combinatorial Testing
+
+* Property-Based Testing & Formal Verification
   * Theory of property-based testing
   * Overview of QuickCheck and writing property-based tests
   * An overview of formal verification
   * Pros and cons of each kind of testing
-  * ASSIGNED: FINAL DELIVERABLE
 
-* **4 NOV.** Exploratory, Smoke, Stochastic, and Red Routes Testing
-  * Definitions
-  * Their place in the software testing process
+## WEEK 9 (3 MAR)
+* MIDTERM
 
-* **6 NOV.** Performance Testing
+* DUE: DELIVERABLE 3
+
+## WEEK 10 (10 MAR)
+
+* SPRING BREAK - NO CLASS
+
+## WEEK 11 (17 MAR)
+
+* Performance Testing
   * Load/stress testing
   * Timing
   * Resource usage
   * Key Performance Indicators (KPI)
   * Tools - JProfiler, perfmon, etc.
 
-* **11 NOV.** Performance Testing, cont'd
+* Performance Testing, cont'd
   * Scaling
   * Modeling
   * Writing and testing performance requirements
   * Special difficulties (e.g., testing performance before functionality complete)
 
-* **13 NOV.** Writing Testable Code
-  * SOLID principles
-  * Law of Demeter
-  * Why testable code tends to be "good code"
+* ASSIGNED: DELIVERABLE 4
 
-* **18 NOV.** Usability Testing
+## WEEK 12 (23 MAR)
+
+* Security Testing
+  * Information Security
+  * Kinds of attacks
+  * General Theory of Security
+  * Developing a Security Plan
+
+## WEEK 13 (30 MAR)
+
+* Security Testing, Cont'd
+  * Tools in Use
+  * Penetration Testing
+  * "Hacking"
+
+* DUE: DELIVERABLE 4
+* ASSIGNED: FINAL DELIVERABLE
+
+## WEEK 13 (7 APR)
+
+* (GUEST LECTURE) Usability Testing
   * How to define "usability"?
   * Human-centered design
 
-* **20 NOV.** Security Testing
-  * Information Security
-  * Kinds of attacks
-  * Penetration testing
-  * Security audits and security planning
+* (GUEST LECTURE) Security Testing in Industry
 
-* **25 NOV.** Security Testing, Part II
+* WEEK 14 (14 APR)
 
-* **2 DEC.**
-  * Special Topics: Testing as a Career
-    * Quality Analyst
-    * Software Engineer in Test
-    * Test Manager
-    * How to be a good tester
-    * Soft skills
-    * How does software testing compare to traditional software engineering?
-  * Review for Final
-  * **DUE: FINAL DELIVERABLE (25% of grade)**
+* Dealing with Stakeholders
 
-* **4 DEC.** **CUMULATIVE FINAL (15% of grade)**
+* Testing as a Career
+
+* DUE: FINAL DELIVERABLE (25% of grade)**
+
+## WEEK 15 (21 APR)
+
+* CUMULATIVE FINAL

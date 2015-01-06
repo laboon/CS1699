@@ -4,20 +4,27 @@ Special Topics in Computer Science: Software Quality Assurance
 ## Course Information
 
 **Taught by:** Bill Laboon (bill@billlaboon.com)  
-**Professor's Office Hours:** SENSQ 6148, T/H 5:30-6:00pm, and after class,
-or by appointment.  I am usually available on W, but need advance notice to 
+**Professor's Office Hours:** SENSQ 6148, T 5:00-6:00pm, and after class,
+or by appointment.  I am usually available on Tuesdays, but need advance notice to 
 be on campus.
 Office hours subject to change based on student feedback.
 
-**Class Time:** T/H 6:00-7:15pm.  
+**Class Time:** T/H 6:00-8:45pm.  
 **Room:** SENSQ 5129
 
-**TA:** Chris Hartman (crh40@pitt.edu)  
-**TA Office Hours:** T/H 2:30-4:30pm, SENSQ 6516
+**TA:** John Felen
+**TA Office Hours:** TBD
 
 **Class GitHub repo:** https://www.github.com/laboon/cs1699  
 **"Textbook" repo:** https://www.github.com/laboon/ebook  
 **Required Text:** None.
+**Recommended Texts:** 
+
+Test-Driven Development: By Example, Kent Beck ISBN-13: 978-0321146533
+
+Software Testing: A Craftsman's Approach, Paul Jorgensen, ISBN-13: 978-1466560680
+
+I have both of these texts available for you to borrow.
 
 This course provides students with a broad understanding of modern
 software testing and quality assurance. Although it will cover testing
@@ -32,14 +39,16 @@ process.
 * Mid-term Exam - 15%
 * Final Exam - 15%
 * Group Projects:
-  * Deliverable 1 - 15%
+  * Deliverable 1 - 10%
   * Deliverable 2 - 15%
   * Deliverable 3 - 15%
-  * Final Deliverable - 25%
+  * Deliverable 4 - 10%
+  * Final Deliverable - 15%
+* Class Participation - 5%
+
+Although you are not required to come to class (as you can see, it's technically possible to get an A without ever showing up except for turning in papers and tests), it is strongly recommended that you do.  I also expect students to take an active part in discussions.
 
 The following grading scale will be used.
-Class participation may be used to decide grades on the
-borderline.
 
 Score  | Grade
 -----: | ------------------------------
@@ -75,7 +84,7 @@ in grading.
 Lecture attendance is not required, but is STRONGLY recommended.
 The instructor will try to ensure that all information on the exams
 will be available via slides, but simply reading them may be
-insufficient to understand the concepts thoroughly.
+insufficient to understand the concepts thoroughly.  The textbook for this class is still being written.
 
 Presence for the mid-term and final exam are REQUIRED.  They will be
 individually re-scheduled only in the event of an emergency.  If you
@@ -86,30 +95,20 @@ without clearing it first with the instructor will result in a 0
 
 ## Group Project Details
 
-Students will be grouped into groups of 2.  For the first three deliverables, 
+Students will be grouped into groups of 2.  For the first four deliverables, 
 groups will be assigned and will be different each time.  For the final 
 deliverable, you can choose to work alone, or choose your own partner 
 (who must, of course, also agree to work with you)
 
-Students will perform the role of QA team on a
-project which can be selected either by themselves, or assigned by the
-instructor.  The group will have several deliverables over the course
-of the semester.
+Students will perform the role of QA team on a project which can be selected either by themselves, or assigned by the instructor.  Although students can select to work on a different project, it must first be cleared with the instructor.  Additionally, it should be noted that the instructor and/or TA may not be able to help as much if you use a different project or language!    The group should check with the instructor as to the feasibility of
+the particular project they are working on.  
 
-The group should check with the instructor as to the feasibility of
-the particular project they are working on.  The instructor reserves
-the right to allocate a project to the group, but will work with the
-group to come up with a project which will be of interest to them.
-
-* **Deliverable 1:** A list of high-level functional and non-functional
-requirements for the software project and a test plan with
-traceability matrix.
+* **Deliverable 1:** A test plan and traceability matrix
 * **Deliverable 2:** Sufficient unit tests for a large subset of the
 project's functionality.
-* **Deliverable 3:** Sufficient automated acceptance tests for a large
-subset of the project's functionality.
-* **Final Deliverable:** Will vary based on the group.  See the Deliverable 4
-description for details of what is expected.
+* **Deliverable 3:** Sufficient automated acceptance tests for a web application.
+* **Deliverable 4:** Performance testing of an application.
+* **Final Deliverable:** Will vary based on the group.  See the Final Deliverable description for details of what is expected.
 
 Deliverables must be handed in by close of class on the day that it is
 due.  Late deliverables will NOT be accepted.
