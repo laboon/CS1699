@@ -1,5 +1,5 @@
 # CS 1699
-Special Topics in Computer Science: Software Quality Assurance
+Special Topics in Computer Science: Software Testing
 
 ## Course Information
 
@@ -9,7 +9,7 @@ or by appointment.  I am usually available on Tuesdays, but need advance notice 
 be on campus.
 Office hours subject to change based on student feedback.
 
-**Class Time:** T/H 6:00-8:45pm.  
+**Class Time:** T 6:00-8:45pm.  
 **Room:** SENSQ 5129
 
 **TA:** John Felen
