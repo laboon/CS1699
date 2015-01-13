@@ -1,7 +1,5 @@
 Requirements for Coffee Maker Quest
 
-FUN-STARTUP - After starting the game, the system shall display the text "Welcome to Coffee Maker Quest" and the version number of the software.
-
 FUN-ITERATION - At each iteration of the game, the user shall be able enter one of six commands - "N" to go North, "S" to go South, "L" to Look for items, "I" for Inventory, "H" for Help, or "D" to Drink.
 
 FUN-UNKNOWN-COMMAND - If a player enters a command not specified by FUN-ITERATION, the system shall respond with the phrase "What?".
@@ -13,8 +11,6 @@ FUN-MOVE - The system shall allow a player to move North only if a door exists g
 FUN-WIN - The player shall win the game if and only if Coffee, Sugar, and Cream have been collected by the player and then drunk.
 
 FUN-LOSE - The player shall lose the game if and only if the player Drinks but has not collected all of the items (Coffee, Sugar, and Cream).
-
-FUN-ROOMS - There shall be six rooms in the house.
 
 FUN-INVENTORY - Upon entering "I" for inventory, the player shall be informed of the items that he/she has collected (consisting of Coffee, Sugar, and Cream).
 

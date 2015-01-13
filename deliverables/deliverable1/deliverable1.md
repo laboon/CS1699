@@ -41,11 +41,11 @@ ON A SEPARATE PAGE, a traceability matrix should be provided mapping the test ca
 
 Finally, ON A SEPARATE PAGE, list at least three defects found.  The defects should follow the defect reporting template:
 
-DESCRIPTION:
-SUMMARY:
-REPRODUCTION STEPS:
-EXPECTED BEHAVIOR:
-OBSERVED BEHAVIOR:
+	 DESCRIPTION:
+	 SUMMARY:
+	 REPRODUCTION STEPS:
+	 EXPECTED BEHAVIOR:
+	 OBSERVED BEHAVIOR:
 
 Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.  The test case which found the defect should be listed as part of the SUMMARY.
 
@@ -54,6 +54,16 @@ Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.  The 
 * Test Plan: 40% of grade
 * Traceability Matrix: 20% of grade
 * Defects Found and Described: 30% of grade
+
+## Coffee Maker Quest
+Coffee Maker Quest is a simple game.  The goal is get coffee, sugar, and cream, and then drink it so that you can stay up and study.  In order to do so, you need to visit several rooms in a house and look around.  Once you have obtained all the necessary elements, you win.  If you decide to drink before getting all of the necessary elements, you lose.
+
+You can run it downloading the coffeemaker.jar file and running:
+```bash
+java -jar coffeemaker.jar
+```
+
+The requirements are listed in the file requirements.txt.
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
  
