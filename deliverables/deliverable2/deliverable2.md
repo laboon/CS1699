@@ -53,14 +53,14 @@ Before each test, add some comments explaining what it is testing.  For example.
 ## Grading
 I remind you that grammar and good code count as well as functionality.  By good code, I mean -
 
-1. No commented-out code (unless there's an EXPLICIT reason, e.g.
+No commented-out code (unless there's an EXPLICIT reason, e.g.
 ```java
 // I couldn't get this assertion to work, but instead used a different assertion, below
 // assertEquals(foo, 3);
 assertTrue(foo == 3);
 ```
 
-2. Properly indented code, e.g.
+Properly indented code, e.g.
 ```java
 public void doSomething() {
     doStuff();
@@ -75,7 +75,7 @@ public
 }
 ```
 
-3. Don't misspell words or use bad grammar, in comments or summaries.
+Don't misspell words or use bad grammar, in comments or summaries.
 
 ## Grading Breakdown
 * Summary and Testing Concerns- 10%
