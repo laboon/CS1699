@@ -31,7 +31,7 @@ At least three (3) unit tests should use test doubles.
 
 At least three (3) unit tests should use stubbing of methods.
 
-I expect unit tests for AT LEAST each method that returns a value (excluding the main method), using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc. and focus on them.
+I expect unit tests for AT LEAST each public method that returns a value (excluding the main method), using a variety of assertions and looking at different failure modes.  Keep in mind some of the things we learned when doing manual testing; you should be cognizant of equivalence classes, boundary values, etc. and focus on them.
 
 Before each test, add some comments explaining what it is testing.  For example...
 
@@ -78,6 +78,8 @@ public
 ```
 
 Don't misspell words or use bad grammar, in comments or summaries.
+
+For this project, you should endeavour to get a good sampling of different equivalence classes and success/failure cases.
 
 ## Grading Breakdown
 * Summary and Testing Concerns- 10%
