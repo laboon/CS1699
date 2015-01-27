@@ -27,36 +27,36 @@ public class LinkedListTest {
 
 	@After
 	public void tearDown() throws Exception {
-		// any necessary teardown
+		// any necessary teardown - none needed here
 	}	
 		
-	@Test
-	public void testTraverse() {
-		LinkedList<Integer> ll = new LinkedList<Integer>();
-		Node<Integer> mockedNode1 = Mockito.mock(Node.class);
-		Node<Integer> mockedNode2 = Mockito.mock(Node.class);
-		ll.addToFront(mockedNode2);
-		ll.addToFront(mockedNode1);
-		ll.traverse();
-	}
 	
 	// --------------------------------------------------------------
-	// CLEAR TESTS
+	// ZERO-LENGTH TESTS
 	// --------------------------------------------------------------
+	
+	// Test that a zero-length list will return null if you try to get 
+	// the first element
 	@Test
 	public void testZeroList() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
 		ll.clear();
 		assertNull(ll.getFront());
 	}
-	
+
+	// Test that the .clear() methods works, by first adding an item, and then
+	// clearing the list.  It should be empty (tested by ensuring that
+	// the first element is null).
 	@Test
-	public void testOneList() {
+	public void testClearedList() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
 		ll.addToFront(new Node<Integer>(new Integer(7)));
 		ll.clear();
 		assertNull(ll.getFront());
 	}
+	
+	// This tests whether a multiple item linked lit will
+	// clear down to zero items when clear method is called.
 	
 	@Test
 	public void testMultiList() {
@@ -68,30 +68,14 @@ public class LinkedListTest {
 		assertNull(ll.getFront());
 	}
 	
-	
-	// --------------------------------------------------------------
-	// PRETTY PRINT TESTS
-	// --------------------------------------------------------------
-	
-	public void testNoItemPrint() {
-		
-	}
-	
-	public void testOneItemPrint() {
-		
-	}
-	
-	public void testMultiplePrint() {
-		
-	}
-	
 	// --------------------------------------------------------------
 	// ADD TO FRONT TESTS
 	// --------------------------------------------------------------
 	
-	// If no nodes exist, just add. 
-	
-	// @SuppressWarnings("unchecked")
+	// Add ten nodes, then add one more (testNode).  Check that setNext() has been
+	// called to the last of the first ten nodes, and that the added
+	// node testNode is the same as the one that is at the front of the list.
+
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testAddToNoItemLL() {
@@ -110,7 +94,10 @@ public class LinkedListTest {
 		
 	}
 	
-	// If one node exists, add before it
+	// Add only one node, then add one more (testNode).  Check that setNext() has been
+	// called to the original node and that the added
+	// node testNode is the same as the one that is at the front of the list.
+
 	@SuppressWarnings("unchecked")
 	@Test
 	public void testAddToOneItemLL() {
@@ -127,6 +114,9 @@ public class LinkedListTest {
 	// DELETE FROM FRONT TESTS
 	// --------------------------------------------------------------
 	
+	// Check that attempting to delete a node from a Linked List with 
+	// no elements will not throw an error.
+	
 	@Test
 	public void testDeleteFrontNoItem() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
@@ -134,6 +124,10 @@ public class LinkedListTest {
 		assertEquals(ll.getFront(), null);
 		
 	}
+	
+	// Check that deleting a node from a Linked List with 
+	// one elements will not throw an error, and will result in an
+	// empty LinkedList (front is null).
 	
 	@SuppressWarnings("unchecked")
 	@Test
@@ -143,6 +137,10 @@ public class LinkedListTest {
 		ll.deleteFront();
 		assertEquals(ll.getFront(), null);
 	}
+	
+	// Check that deleting a node from a Linked List with 
+	// multiple elements will properly delete the first node
+	// and leave the old second node as the new first node..	
 	
 	@SuppressWarnings("unchecked")
 	@Test
@@ -164,14 +162,14 @@ public class LinkedListTest {
 	// EQUALITY TESTS
 	// --------------------------------------------------------------
 	
-	//  0. A LL should always equal itself	
+	//  Check that a new linked list equals itself.	
 	@Test 
 	public void testEqualsSelf() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
 		assertEquals(ll, ll);
 	}
 	
-	//	1. Two 0-element LL's should be equal
+	//	Check that two new linked lists with no elements equal each other.
 	@Test
 	public void testEquals0Elems() {
 		LinkedList<Integer> ll01 = new LinkedList<Integer>();
@@ -179,14 +177,14 @@ public class LinkedListTest {
 		assertEquals(ll01, ll02);
 	}
 	
-	//	2. No instantiated LL should equal null
+	//	An instantiated linked list should not equal null.
 	@Test
 	public void testNotEqualsNull() {
 		LinkedList<Integer> ll01 = new LinkedList<Integer>();
 		assertFalse(ll01.equals(null));
 	}
 	
-	//  3. No LL should equal a non-LinkedList, e.g. Object
+	//  Check that a LL object does equal a non-LinkedList, e.g. Object
 	@Test
 	public void testNotEqualsRegularObject() {
 		LinkedList<Integer> ll01 = new LinkedList<Integer>();
@@ -194,7 +192,7 @@ public class LinkedListTest {
 		assertFalse(ll01.equals(obj));
 	}
 	
-	//  4. Two LLs with the same Node value with a single node should be equal	
+	//  Check that two LLs with the same Node value with a single node are equal	
 	@Test
 	public void testEqualsOneNodeSameVals() {
 		LinkedList<Integer> ll11 = new LinkedList<Integer>();
@@ -204,7 +202,7 @@ public class LinkedListTest {
 		assertEquals(ll11, ll12);
 	}
 	
-	//  5. Two LL with different Node values with a single node should NOT be equal	
+	//  Check that two LL with different Node values with a single node are NOT equal	
 	@Test
 	public void testEqualsOneNodeDiffVals() {
 		LinkedList<Integer> ll11 = new LinkedList<Integer>();
@@ -214,7 +212,8 @@ public class LinkedListTest {
 		assertFalse(ll11.equals(ll2));
 	}
 	
-	//  6. Two LLs with different sizes should never be equal
+	//  Check that two LLs with different sizes, but the same front node value,
+	// are not considered equal.
 	@Test
 	public void testNotEqualsDiffSizes() {
 		LinkedList<Integer> ll11 = new LinkedList<Integer>();
@@ -228,7 +227,8 @@ public class LinkedListTest {
 		assertFalse(ll_3elems.equals(ll11));
 	}
 
-	//  7. An LL which is just a reference to another instance of itself should equal itself
+	// Check that a LL which is just a reference to another instance of itself
+	// equals itself
 	@Test
 	public void testEqualsRef() {
 		LinkedList<Integer> ll11 = new LinkedList<Integer>();
@@ -237,7 +237,8 @@ public class LinkedListTest {
 		assertSame(ll11, ll11_new);
 	}
 	
-	//  8. LLs with different data should not equal each other	
+	// Check that LLs with the same size, but different data in the nodes,
+	// do not equal each other.	
 	@Test
 	public void testNotEqualsDiffData() {
 		LinkedList<Integer> ll_3elems = new LinkedList<Integer>();
@@ -252,7 +253,7 @@ public class LinkedListTest {
 		assertFalse(ll_321.equals(ll_3elems));
 	}
 	
-	//  9. LLs with the same data should equal each other
+	//  Check that two multiple-node LLs with the same data  equal each other
 	@Test
 	public void testEqualsSameData() {
 		LinkedList<Integer> ll_321 = new LinkedList<Integer>();
@@ -267,10 +268,7 @@ public class LinkedListTest {
 		ll_321_2.addToFront(new Node<Integer>(new Integer(3)));
 		
 		assertTrue(ll_321.equals(ll_321_2));
-		
-		// ???
-	}
-
 	
+	}
 	
 }
