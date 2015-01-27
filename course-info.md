@@ -13,7 +13,7 @@ Office hours subject to change based on student feedback.
 **Room:** SENSQ 5129
 
 **TA:** John Felen
-**TA Office Hours:** MW 1:00 - 2:15 SENSQ 5712
+**TA Office Hours:** T/TH 3:50 - 5:50 SENSQ 5712
 
 **Class GitHub repo:** https://www.github.com/laboon/cs1699  
 **"Textbook" repo:** https://www.github.com/laboon/ebook  
