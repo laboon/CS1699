@@ -5,6 +5,8 @@ Spring Semester 2014
 
 For this assignment, your group will write unit tests for the Coffee Maker Quest game or another project or piece of code with a similar amount of functionality.  You will also write about your discoveries, problems that you've had, and problems you would anticipate going forward.
 
+The original code, to which you will add unit tests, for Coffee Maker Quest is located here: https://github.com/laboon/deliverable2_repo  There are directions to fork linked in that repo's README.md file (visible when you go to that page).
+
 All code and tests should be on GitHub or a similar repository accessible to me.
 
 ## Format
