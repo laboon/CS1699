@@ -1,5 +1,6 @@
 # CS 1699 - Software Testing
 Spring Semester 2014
+DUE 17 FEBRUARY 2014
 
 ## Deliverable 2
 
