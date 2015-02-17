@@ -7,6 +7,8 @@ For this assignment, your group will write systems tests (aka acceptance or inte
 
 Tests and code should be on GitHub or another publicly accessible repository.
 
+You are allowed to choose your partner for this deliverable.  There should be TWO and ONLY TWO students per group.  The partner CANNOT be someone with whom you have partnered before.  If you cannot find a partner, please let me know and I will help you find one.
+
 ## Format
 Every group should have a title page with:
 * The name of the project under test
