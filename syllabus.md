@@ -97,8 +97,6 @@ CS1699: Special Topics - Software Testing
   * A Very Brief Introduction to Cucumber and the Gherkin language
 
 * Writing Acceptance Tests for Behavior-Driven Development
-  * Using Gherkin with Cucumber
-  * Developing step definitions for Cucumber tests
 
 ## WEEK 7 (17 FEB)
 
