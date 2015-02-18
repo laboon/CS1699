@@ -1,6 +1,8 @@
 # CS 1699 - Software Testing
 Spring Semester 2015
 
+DUE 2 MAR 2015
+
 ## Deliverable 3
 
 For this assignment, your group will write systems tests (aka acceptance or integration tests) for a web site of your choice using the BDD model discussed in class.  That is, you will write user stories (features) and scenarios in Gherkin, and the JUnit tests in the language of your project.  You should substantially cover a subset of functionality for the project, and note in the "Testing Concerns" section what other aspects you would additionally add for full testing if this were a professional product.
