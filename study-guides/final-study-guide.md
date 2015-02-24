@@ -4,12 +4,6 @@ NOTE - Everything on the midterm study guide is also fair game for the final!
 Fall 2014
 
 
-## PROPERTY-BASED TESTING
-* Be able to define
-* Be able to develop property tests (not in any specific language) for a given pure function
-* What is useful for testing?  What is not useful for testing?
-* Understand terminology: invariants, shrinking, falsifying
-
 ## EXPLORATORY TESTING
 * Be able to define
 * When is it useful?  When is it not?

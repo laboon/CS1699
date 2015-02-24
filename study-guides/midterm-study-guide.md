@@ -84,6 +84,12 @@ However, here are the key topics to study in preparation for the test.
 * Understand how it could be used for different realms, e.g. system combinations (OS, Browser, etc.)
 * Benefits and drawbacks
 
+## PROPERTY-BASED TESTING
+* Be able to define
+* Be able to develop property tests (not in any specific language) for a given pure function
+* What is useful for testing?  What is not useful for testing?
+* Understand terminology: invariants, shrinking, falsifying
+
 ## FORMAL VERIFICATION
 * Be able to define
 * Predictable execution, partial correctness, full correctness
