@@ -1,7 +1,7 @@
 # CS 1699 Midterm Exam Study Guide
 Spring 2015
 
-The midterm will cover everything we have covered up to the lecture of 9 OCT 2014.
+The midterm will cover everything we have covered up to the lecture of 24 FEB 2015.
 
 However, here are the key topics to study in preparation for the test.
 
