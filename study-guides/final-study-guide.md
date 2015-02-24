@@ -3,32 +3,12 @@ NOTE - Everything on the midterm study guide is also fair game for the final!
 
 Fall 2014
 
-## WEB TESTING
-* Be able to explain how you would test a web page with Selenium
-* You do NOT need to know Selenese (Selenium scripting language)
-* Be able to talk about WHY a given script is good or bad, and possible problems
-* Be able to discuss issues with testing web apps (page loading timing issues, javascript issues, etc)
-* Integrating Cucumber/Gherkin with Selenium for web testing (be able to discuss)
-
-## PAIRWISE/COMBINATORIAL TESTING
-* Be able to define
-* Be able to determine when/where to use, when it might be overkill or not enough
-* Understand the Pareto (80/20) rule in regards to combinatorial testing
-* Understand why developing a good combinatorial test is hard for non-trivial inputs
-* Be able to make a very simple combinatorial test which matches all pairs (not doing triple or more)
-* Understand how it could be used for different realms, e.g. system combinations (OS, Browser, etc.)
-* Benefits and drawbacks
 
 ## PROPERTY-BASED TESTING
 * Be able to define
 * Be able to develop property tests (not in any specific language) for a given pure function
 * What is useful for testing?  What is not useful for testing?
 * Understand terminology: invariants, shrinking, falsifying
-
-## FORMAL VERIFICATION
-* Be able to define
-* Predictable execution, partial correctness, full correctness
-* When is this useful/not useful?  What programs might you use it for / not use it for?
 
 ## EXPLORATORY TESTING
 * Be able to define
