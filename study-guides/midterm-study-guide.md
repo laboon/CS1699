@@ -58,10 +58,6 @@ However, here are the key topics to study in preparation for the test.
 * Benefits and drawbacks of TDD
 * Testing private methods (you won't need to use reflection, but remember why/why not one would test them)
 
-## INTERACTING WITH STAKEHOLDERS
-* Be able to name some stakeholders and what is important to them
-* Be prepared for some "fake" interaction with various stakeholders
-
 ## BDD
 * Be able to define it
 * Understand and be able to use the Connextra template and Gherkin syntax
