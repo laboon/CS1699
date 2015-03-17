@@ -23,6 +23,17 @@ Every assignment should have a title page with:
 
 There is no need to print out the code.  It should be issued as a PR against the original repo BY THE BEGINNING OF CLASS.
 
+In order to determine the "hot spots" of the application, you will need to run a profiler such as VisualVM (included with the JDK).  Using a profiler, determine a method you can use to measurably increase the speed of the application without modifying behavior.  You may wish to use "time" or a similar command to ensure that you have in fact reduced the amount of time necessary to execute n iterations of the World.
+
+The application accepts four command line arguments.  All of these should be positive integers.  They are:
+
+1. The size of the world (n x n)
+2. The seed for the random number generator
+3. The percentage of cells alive initially 
+4. The number of iterations to run the simulation
+
+Note that iterations can go by pretty quickly, so for your debugging, you may want to set the number of iterations very high (e.g. 30000) and just kill the application when you are done profiling.
+
 At a minimum, there should be three (3) unit tests (note that this is a MINIMUM).  For a good grade, there should be various edge cases and equivalence classes considered.  Remember that since you are refactoring the method, the tests should pass both before and after.  Whatever method you choose to refactor, it should produce the same RESULTS as before.
 
 For the summary, describe how you profiled the application and determined the method to refactor, and explain how you did so.  Additionally, explain how you refactored the method and how you chose what to unit test.  Finally, explain any challenges that arose in the process.
