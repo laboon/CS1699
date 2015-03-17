@@ -1,52 +1,43 @@
 # CS 1699 - Software Testing
 Spring Semester 2015
 
-DUE 3 MAR 2015
+DUE 31 MAR 2015
 
-## Deliverable 3
+## Deliverable 4
 
-For this assignment, your group will write systems tests (aka acceptance or integration tests) for a web site of your choice using the BDD model discussed in class.  That is, you will write user stories (features) and scenarios in Gherkin, and the JUnit tests in the language of your project.  You should substantially cover a subset of functionality for the project, and note in the "Testing Concerns" section what other aspects you would additionally add for full testing if this were a professional product.
+For this assignment, you (NOT a group) will profile a Conway's Game of Life simulation, and improve its performance by refactoring a single method (to be determined by the results of the profiling).  This will consist of three parts:
 
-Tests and code should be on GitHub or another publicly accessible repository.
+1. Profiling (before and after) to determine which method is the most resource-intensive, and showing that your rewrite helped make your method more performant
+2. Writing unit tests for that method
+3. Refactoring the method to be more performant
 
-You are allowed to choose your partner for this deliverable.  There should be TWO and ONLY TWO students per group.  The partner CANNOT be someone with whom you have partnered before.  If you cannot find a partner, please let me know and I will help you find one.
+Test code will be on Github( https://github.com/laboon/JavaLife ), and should be issued __as a PULL REQUEST (PR)__ against the original repo.  
+
+There are no partners for this deliverable.
 
 ## Format
-Every group should have a title page with:
-* The name of the project under test
-* The names of the people in the group
-* The title "CS 1699 - DELIVERABLE 3: Web Testing with BDD"
+Every assignment should have a title page with:
+* The name of the project under test (JavaLife)
+* The name of the student
+* The title "CS 1699 - DELIVERABLE 4: Performance Testing Conway's Game of Life"
 
-First, include a short summary (a few paragraphs) of what you decided to test, and why.
+There is no need to print out the code.  It should be issued as a PR against the original repo BY THE BEGINNING OF CLASS.
 
-Secondly, add a description of issues you faced when writing these tests and problems you would expect going forward based on your experiences.  If any tests you wrote fail, they should be included here.  Also note if there are any special steps to get the tests running.
+At a minimum, there should be three (3) unit tests (note that this is a MINIMUM).  For a good grade, there should be various edge cases and equivalence classes considered.  Remember that since you are refactoring the method, the tests should pass both before and after.  Whatever method you choose to refactor, it should produce the same RESULTS as before.
 
-At the end of this section, note where your code (test code and code of project under test, if available) is located.  
+For the summary, describe how you profiled the application and determined the method to refactor, and explain how you did so.  Additionally, explain how you refactored the method and how you chose what to unit test.  Finally, explain any challenges that arose in the process.
 
-After this, there should be a printout or screen shot of the test execution results.
+After this, include screenshots of VisualVM (or another profiler, if you use that) both before and after the refactor.  These screenshots should include the relevant sections that let you see what method to refactor.
 
-There is no need to print out the code.  It should be put on a publicly-available site such as GitHub BY THE BEGINNING OF CLASS.
-
-There shall be AT LEAST 4 user stories per group, but there can be more.  Each user story should have multiple (at least two) scenarios.  There shall be at least an average ("arithmetic mean", if you would like to be specific) of 5 scenarios per user story.  
-
-User stories should all follow the Connextra template.
-
-Scenarios should all follow the Given/When/Then template (but note that some scenarios may not require a Given).
-
-The feature files shall contain a feature and all scenarios for that feature.  The JUnit tests shall have the scenario that they are testing written in the comments above the particular test.  All tests shall correspond to a scenario and vice-versa.
-
-Remember that scenarios are FEATURE-level tests; they should discuss things in a way that an intelligent but non-technical user of the software would understand.  Remember the differences between scenario tests and specification/unit tests!
-
-Also remember to focus on a particular subset of functionality in order to get good testing coverage.
+Finally, issue the changes that you made as a PR against my local repo.  Remember that you will need to do all of your work in a separate branch for this to work correctly!  You shouldn't be doing work on the master branch, anyways.
 
 ## Grading
-* Summary - 5%
-* Testing concerns - 10% 
-* Screen shot or printout of test results - 5%
-* User Stories and Scenarios, written in Gherkin - 30%
-* JUnit Tests - 50%
+* Summary - 25%
+* VisualVM (or other profile) screenshots (before and after) - 25% 
+* Method refactoring - 25%
+* JUnit Tests - 25%
 
-Reminder that all code (project under test AND test code) should be publicly available, or at least available to me.
+Reminder that you NEED TO ISSUE THIS AS A PR.  SIMPLY LINKING TO A SEPARATE GITHUB REPO IS NOT ACCEPTABLE.  
 
 Please feel free to email me at bill@billlaboon.com or come to office hours to discuss any problems you have. 
  
