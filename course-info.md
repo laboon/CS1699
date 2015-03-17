@@ -119,6 +119,8 @@ The instructor is open to groups using any programming language or
 testing framework.  However, it is *strongly* recommended that it be done in
 Java.  All of the tools discussed will be supported by the professor and TA. If your group decides to use another language, the instructor may not be able to help with problems specific to that language.
 
+If you want to use Java but aren't a fan of Eclipse, information on setting up the [Gradle build tool](https://gradle.org/) with the required packages for this course can be found [here](https://gist.github.com/alexlafroscia/c6757de349b27e34eff6).  
+
 ## Disability Services Statement
 
 "The Office of Disability Resources and
