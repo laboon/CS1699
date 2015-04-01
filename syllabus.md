@@ -174,7 +174,7 @@ CS1699: Special Topics - Software Testing
 
 * (GUEST LECTURE) Security Testing in Industry
 
-* WEEK 14 (14 APR)
+## WEEK 14 (14 APR)
 
 * Dealing with Stakeholders
 
